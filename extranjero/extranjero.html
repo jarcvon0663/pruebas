@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Venta de videojuegos retro para celular y computador. Encuentra tus juegos favoritos en Videojuegos Retro.">
+    <meta name="keywords" content="videojuegos, retro, celular, computador, juegos, venta">
+    <meta name="author" content="Arturo Rios Castaño">
+
+    <title>Videojuegos Retro</title>
+
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Videojuegos Retro</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h2 class="logo">Videojuegos</h2>
+                <img style="height: 100px; width: 100px;" src="../img/logo.png" alt="Logo de Videojuegos Retro">
+                <h2 class="logo">Retro</h2>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./android/android.html">Ver juegos para <span>📱</span></a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./pc/pc.html">Ver juegos para <span>🖥️</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Videojuegos Retro</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">¿Quieres juegos para celular o computador?</h2>
+            <div id="contenedor-productos" class="contenedor-productos-inicio">
+                <div class="producto-inicio">
+                    <a href="./androidx/androidx.html">
+                        <h3>Juegos para <span>📱</span></h3>
+                        <img src="../img/celular.jfif" alt="Juegos para celulares">
+                        <button onclick="location.href='./android/android.html'">Ver juegos</button>
+                    </a>
+                </div>
+                <div class="producto-inicio">
+                    <a href="./pcx/pcx.html">
+                        <h3>Juegos para <span>🖥️</span></h3>
+                        <img src="../img/pc.jfif" alt="Juegos para computador">
+                        <button onclick="location.href='./pc/pc.html'">Ver juegos</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="search-bar">
+                <a href="../index.html"><button>Volver a Colombia</button></a>
+            </div>
+            <footer>
+                <p class="descargo-responsabilidad">
+                    Este sitio web es un catálogo de videojuegos y no recopila ni almacena datos personales de los
+                    usuarios. Tampoco se utilizan cookies para el seguimiento de los visitantes.
+                </p>
+            </footer>
+        </main>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" async></script>
+    <script src="../js/menu.js" defer></script>
+</body>
+
+</html>

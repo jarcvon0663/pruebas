@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos Retro</title>
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR4WQB7GBD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZR4WQB7GBD');
+    </script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Videojuegos Retro</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">Videojuegos Retro</h1>
+                <img style="height: 100px; width: 100px;" src="../../img/logo.png" alt="">
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./pcx.html">
+                            <i class="bi bi-arrow-return-left"></i> Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carritopcx.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Videojuegos</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito de compras</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito de compras está vacío. <i
+                        class="bi bi-emoji-frown"></i></p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Esto se va a completar con el JS -->
+                </div>
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p id="descuento"></p> <!-- Aquí se mostrará el valor del descuento -->
+                            <p>Total:</p>
+                            <p id="total">$3000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="payment-method">
+                    <h2 class="titulo-principal" id="numero-telefono">Puedes pagar con</h2>
+                    <div class="mediosdepago">
+                        <a href="https://www.paypal.me/videojuegosretro" target="_blank"><img class="medio"
+                                src="../../img/paypal.png" style="height: 60px; width: 60px;" alt=""></a>
+                        <a id="openImageModal" href="#"><img class="medio" src="../../img/binance.png"
+                                style="height: 60px; width: 60px;" alt=""></a>
+
+                        <!-- Modal para mostrar la imagen y el botón de copiar dirección -->
+                        <div id="imageModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img src="../../img/usdt.png" alt="USDT Wallet" style="width: 100%;">
+                                <button id="copyWalletAddress">Copiar Dirección</button>
+                            </div>
+                        </div>
+                        <a href="https://www.fandome.co/feed?wid=9gfv49nP" target="_blank"><img class="medio"
+                                src="../../img/fandome.png" style="height: 60px; width: 60px;" alt=""></a>
+                    </div>
+                    <script>
+                        document.getElementById('openImageModal').addEventListener('click', function (event) {
+                            event.preventDefault(); // Evita la redirección predeterminada
+                            const modal = document.getElementById('imageModal');
+                            modal.style.display = 'block';
+                        });
+
+                        document.getElementsByClassName('close')[0].addEventListener('click', function () {
+                            const modal = document.getElementById('imageModal');
+                            modal.style.display = 'none';
+                        });
+
+                        window.addEventListener('click', function (event) {
+                            const modal = document.getElementById('imageModal');
+                            if (event.target == modal) {
+                                modal.style.display = 'none';
+                            }
+                        });
+
+                        document.getElementById('copyWalletAddress').addEventListener('click', function () {
+                            const walletAddress = 'TY5kVQ3Xi6viWcJE6KooDaeV8J5NhoWAZp';
+                            navigator.clipboard.writeText(walletAddress).then(function () {
+                                alert('Dirección copiada al portapapeles. Recuerda seleccionar la red TRC-20.');
+                            }, function (err) {
+                                alert('Error al copiar la dirección: ', err);
+                            });
+                        });
+                    </script>
+                </section>
+
+                <section>
+                    <a id="whatsapp-link" href="#" onclick="actualizarMensaje(event)" rel="noopener noreferrer" target="_blank">
+                        <img style="height: 100px; width: 300px;" src="../../img/whatsapp.png" alt="WhatsApp">
+                        <br>
+                        <p>Envía el comprobante de pago a nuestro WhatsApp indicando el nombre del videojuego y te
+                            llegará en respuesta el enlace de descarga del juego y demás archivos necesarios. Al
+                            descargarlos, me conectaré a través de AnyDesk a tu computador para instalar el juego de
+                            manera remota.</p>
+                    </a>
+                    <br>
+                    <h3>Si aún no tienes Anydesk, en este video puedes ver cómo se instala, es muy fácil!!</h3>
+                    <br>
+                    <iframe width="430" height="215" src="https://www.youtube.com/embed/WTgP3_BcbeA?si=hm6BaHq7C3T3JOHE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i
+                        class="bi bi-emoji-laughing"></i></p>
+
+            </div>
+            <a href="./pcx.html" class="boton-flotante">Volver al catálogo</a>
+        </main>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carritopcx.js"></script>
+    <script src="../../js/menu.js"></script>
+</body>
+
+</html>

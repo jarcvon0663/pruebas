@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Carrito de compras de Videojuegos Retro. Compra y paga fácilmente tus videojuegos favoritos.">
+    <title>Videojuegos Retro - Carrito</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    </noscript>
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR4WQB7GBD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZR4WQB7GBD');
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <img class="logo-img" src="../img/logo.png" alt="Logo de Videojuegos Retro">
+            <h1 class="logo">Videojuegosretro</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list" aria-label="Abrir menú"></i>
+            </button>
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./android.html">
+                            <i class="bi bi-arrow-return-left"></i> Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Videojuegos</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito de compras</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito de compras está vacío. <i
+                        class="bi bi-emoji-frown"></i></p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Esto se va a completar con el JS -->
+                </div>
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito de
+                            compras</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p id="descuento"></p> <!-- Aquí se mostrará el valor del descuento -->
+                            <p>Total:</p>
+                            <p id="total">$3000</p>                            
+                        </div>
+                    </div>
+                </div>
+
+                <section class="payment-method">
+                    <h2 class="titulo-principal" id="numero-telefono">Puedes pagar con</h2>
+                    <div class="mediosdepago">
+                        <a href="nequi://app" target="_blank" rel="noopener noreferrer">
+                            <img class="medio" src="../img/nequi.png" alt="Paga con Nequi">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.davivienda.daviplataapp"
+                            target="_blank" rel="noopener noreferrer">
+                            <img class="medio" src="../img/daviplata.png" alt="Paga con Daviplata">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.avalsolucionesdigitalessa.dale_app_embedded"
+                            target="_blank" rel="noopener noreferrer">
+                            <img class="medio" src="../img/dale.png" alt="Paga con Dale">
+                        </a>
+                        <img class="medio" src="../img/transfiya.png" alt="Paga con Transfiya">
+                        <a href="https://recarga.nequi.com.co/bdigitalpsl/?&_ga=2.189700267.1416431342.1700047997-1157613959.1695329771#!/"
+                            target="_blank" rel="noopener noreferrer">
+                            <img class="medio" src="../img/pse.png" alt="Paga con PSE">
+                        </a>
+                    </div>
+                    <h2 class="titulo-principal" id="numero-telefono">al número 3143394021</h2>
+                    <button onclick="copiarAlPortapapeles()" class="copiar">Copiar número</button>
+                    <script>
+                        function copiarAlPortapapeles() {
+                            var numeroTelefono = document.getElementById("numero-telefono").innerText.match(/\d+/);
+                            var tempInput = document.createElement("input");
+                            tempInput.value = numeroTelefono;
+                            document.body.appendChild(tempInput);
+                            tempInput.select();
+                            document.execCommand("copy");
+                            document.body.removeChild(tempInput);
+                            alert("Número de teléfono copiado al portapapeles: " + numeroTelefono);
+                        }
+                    </script>
+                </section>
+                <section>
+                    <a id="whatsapp-link" href="#" onclick="actualizarMensaje(event)" rel="noopener noreferrer"
+                        target="_blank">
+                        <img style="height: 100px; width: 300px;" src="../img/whatsapp.png" alt="WhatsApp">
+                        <br>
+                        <p>Envia el comprobante de pago a nuestro whatsapp indicando el nombre del videojuego y te
+                            llegará en respuesta el enlace de descarga del juego y demás archivos necesarios, al
+                            descargarlos haremos videollamada para guiarte en la instalación y configuración del juego
+                            en tu celular.</p>
+                    </a>
+                </section>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i
+                        class="bi bi-emoji-laughing"></i></p>
+            </div>
+        </main>
+        <a href="./android.html" class="boton-flotante">Volver al catálogo</a>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carritoandroid.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+
+</html>
