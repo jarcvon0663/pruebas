@@ -18,3 +18,5 @@ El mismo 10 de mayo como un ajuste en producción se agregan los botones PSE y t
 11 de mayo 2024, se  organizan los juegos en el archivo productos.json desde el 200 en adelante y por orden de popularidad
 
 19 de mayo 2024, se añade el pop up para ver los videotrailer de los videojuegos  enlazado a youtube. se añade el css faltante.
+
+20 de junio de 2024, se actualizó el orden de los juegos en  android.html
