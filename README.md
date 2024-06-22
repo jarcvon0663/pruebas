@@ -20,3 +20,5 @@ El mismo 10 de mayo como un ajuste en producción se agregan los botones PSE y t
 19 de mayo 2024, se añade el pop up para ver los videotrailer de los videojuegos  enlazado a youtube. se añade el css faltante.
 
 20 de junio de 2024, se actualizó el orden de los juegos en  android.html
+
+22 de junio de 2024, se añadió el botón e contacto en la página de android, ya que se está promocionando el sitio web desde tiktok por primera vez y los clientes no van a pasar por whatsapp business
