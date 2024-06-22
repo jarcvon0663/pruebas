@@ -224,6 +224,8 @@ main {
     color: var(--clr-white);
 }
 
+/**Estilos botones flotantes**/
+
 .boton-flotante {
     position: fixed;
     bottom: 20px;
@@ -248,6 +250,18 @@ main {
 
 .boton-flotante span {
     margin-left: 5px; /* Ajusta el valor según tus necesidades */
+}
+
+.boton-contacto {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-img3 {
+    width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 50px;
 }
 
 /*Estilos para la animación del juego entrando al carrito*/
