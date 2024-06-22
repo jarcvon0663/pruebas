@@ -264,6 +264,11 @@ main {
     height: 50px;
 }
 
+.whatsapp-img4 {
+    width: 25px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 25px;
+}
+
 /*Estilos para la animación del juego entrando al carrito*/
 
 .animate-to-cart {
