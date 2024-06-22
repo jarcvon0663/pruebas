@@ -82,53 +82,30 @@
                 </div>
 
                 <section class="payment-method">
-                    <h2 class="titulo-principal" id="numero-telefono">Puedes pagar con</h2>
                     <div class="mediosdepago">
-                        <a href="https://www.paypal.me/videojuegosretro" target="_blank"><img class="medio"
-                                src="../../img/paypal.png" style="height: 60px; width: 60px;" alt=""></a>
-                        <a id="openImageModal" href="#"><img class="medio" src="../../img/binance.png"
-                                style="height: 60px; width: 60px;" alt=""></a>
+                        <a id="pagar-link" href="#" onclick="pagarx(event)" rel="noopener noreferrer" target="_blank">
+                            <img class="medio" src="../../img/pagar.png" style="height: 90px; width: 270px;" alt="">
+                        </a>
+                        <script>
+                            function pagarx(event) {
+                                // Evitar que se abra la página por defecto
+                                event.preventDefault();
 
-                        <!-- Modal para mostrar la imagen y el botón de copiar dirección -->
-                        <div id="imageModal" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <img src="../../img/usdt.png" alt="USDT Wallet" style="width: 100%;">
-                                <button id="copyWalletAddress">Copiar Dirección</button>
-                            </div>
-                        </div>
-                        <a href="https://www.fandome.co/feed?wid=9gfv49nP" target="_blank"><img class="medio"
-                                src="../../img/fandome.png" style="height: 60px; width: 60px;" alt=""></a>
-                    </div>
-                    <script>
-                        document.getElementById('openImageModal').addEventListener('click', function (event) {
-                            event.preventDefault(); // Evita la redirección predeterminada
-                            const modal = document.getElementById('imageModal');
-                            modal.style.display = 'block';
-                        });
+                                // Obtener los títulos de los videojuegos en el carrito
+                                const carrito = JSON.parse(localStorage.getItem("productos-en-carrito")) || [];
+                                const titulos = carrito.map(producto => producto.titulo);
 
-                        document.getElementsByClassName('close')[0].addEventListener('click', function () {
-                            const modal = document.getElementById('imageModal');
-                            modal.style.display = 'none';
-                        });
+                                // Crear el mensaje con los títulos de los videojuegos
+                                const mensaje = encodeURIComponent(`Hola, por favor crear una orden de compra para los siguientes juegos: ${titulos.join(', ')}`);
 
-                        window.addEventListener('click', function (event) {
-                            const modal = document.getElementById('imageModal');
-                            if (event.target == modal) {
-                                modal.style.display = 'none';
+                                // Construir el enlace de WhatsApp con el mensaje generado
+                                const whatsappUrl = `https://api.whatsapp.com/send?phone=573042672810&text=${mensaje}`;
+
+                                // Abrir el enlace de WhatsApp en una nueva pestaña
+                                window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
                             }
-                        });
-
-                        document.getElementById('copyWalletAddress').addEventListener('click', function () {
-                            const walletAddress = 'TY5kVQ3Xi6viWcJE6KooDaeV8J5NhoWAZp';
-                            navigator.clipboard.writeText(walletAddress).then(function () {
-                                alert('Dirección copiada al portapapeles. Recuerda seleccionar la red TRC-20.');
-                            }, function (err) {
-                                alert('Error al copiar la dirección: ', err);
-                            });
-                        });
-                    </script>
-                    </script>
+                        </script>
+                    </div>
                 </section>
                 <section>
                     <a id="whatsapp-link" href="#" onclick="actualizarMensaje(event)" rel="noopener noreferrer"
