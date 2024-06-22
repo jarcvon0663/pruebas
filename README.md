@@ -22,3 +22,5 @@ El mismo 10 de mayo como un ajuste en producción se agregan los botones PSE y t
 20 de junio de 2024, se actualizó el orden de los juegos en  android.html
 
 22 de junio de 2024, se añadió el botón e contacto en la página de android, ya que se está promocionando el sitio web desde tiktok por primera vez y los clientes no van a pasar por whatsapp business
+
+22 de junio de 2024, se actualiza el medio de pago para los extranjeros dejando solo paypal, utilizando formatos de pago que se pueden pagar con cualquier tarjeta en cualquier parte del mundo sin necesidad de crear una cuenta de paypal
