@@ -42,9 +42,9 @@ function cargarProductosCarrito() {
             } else if (productosEnCarrito.length === 2 && index === 1) {
                 mensajeDescuento = "¡Agrega 1 juego más y obtén un descuento especial!";
             } else if (productosEnCarrito.length === 3 && index === 2) {
-                mensajeDescuento = "¡Agrega 2 juego más y obtén un descuento especial!";
+                mensajeDescuento = "¡Agrega 2 juego más y tendrás acceso a todo el catálogo!";
             } else if (productosEnCarrito.length === 4 && index === 3) {
-                mensajeDescuento = "¡Agrega 1 juego más y obtén un descuento especial!";
+                mensajeDescuento = "¡Agrega 1 juego más y tendrás acceso a todo el catálogo!";
             } else if (productosEnCarrito.length === 5 && index === 4) {
                 mensajeDescuento = "¡Por una compra de $30.000 obtienes acceso a todo el catálogo!";
             } else if (productosEnCarrito.length === 6 && index === 5) {
