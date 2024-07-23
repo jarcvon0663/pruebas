@@ -25,4 +25,4 @@ El mismo 10 de mayo como un ajuste en producción se agregan los botones PSE y t
 
 22 de junio de 2024, se actualiza el medio de pago para los extranjeros dejando solo paypal, utilizando formatos de pago que se pueden pagar con cualquier tarjeta en cualquier parte del mundo sin necesidad de crear una cuenta de paypal
 
-23 de julio de 2024, se añaden nuevos juegos y se utiliza el dominio .online para dar una interfaz de acceso más amigable a los compradores del catálogo, también se cambia el mensaje del descuento indicando que por la compra de 5 se obtiene acceso a todo el catálogo.
+23 de julio de 2024, se añaden nuevos juegos y se utiliza el dominio .online para dar una interfaz de acceso más amigable a los compradores del catálogo, también se cambia el mensaje del descuento indicando que por la compra de 5 se obtiene acceso a todo el catálogo. Me dí cuenta que el carrito de android  no tenía el favicon, ya quedó puesto.
