@@ -9,6 +9,13 @@
         content="Venta de videojuegos retro para celular y computador. Encuentra tus juegos favoritos en Videojuegos Retro.">
     <meta name="keywords" content="videojuegos, retro, celular, computador, juegos, venta">
     <meta name="author" content="Arturo Rios Castaño">
+    <meta property="og:title" content="Videojuegos Retro">
+    <meta property="og:description"
+        content="Venta de videojuegos retro para celular y computador. Encuentra tus juegos favoritos en Videojuegos Retro.">
+    <meta property="og:image" content="https://videojuegosretro.store/img/logo.png">
+    <meta property="og:url" content="https://videojuegosretro.store">
+    <meta property="og:type" content="website">
+
 
     <title>Videojuegos Retro</title>
 
@@ -23,7 +30,6 @@
 </head>
 
 <body>
-
     <div class="wrapper">
         <header class="header-mobile">
             <img class="logo-img" src="./img/logo.png" alt="Logo de Videojuegos Retro">
@@ -44,7 +50,8 @@
             <nav>
                 <ul class="menu">
                     <li>
-                        <a class="boton-menu boton-carrito" href="./android/android.html">Ver juegos para <span>📱</span></a>
+                        <a class="boton-menu boton-carrito" href="./android/android.html">Ver juegos para
+                            <span>📱</span></a>
                     </li>
                     <li>
                         <a class="boton-menu boton-carrito" href="./pc/pc.html">Ver juegos para <span>🖥️</span></a>
@@ -109,8 +116,23 @@
             </footer>
         </main>
     </div>
+    <div id="intro-overlay" class="intro-overlay">
+        <div class="intro-content">
+            <i class="bi bi-hand-index"></i>
+            <p>Selecciona un dispositivo</p>
+            <p>Celular o Computador</p>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.getElementById('intro-overlay').style.display = 'none';
+            }, 2000); // 2500 ms = 2 segundos
+        });
+    </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" async></script>
     <script src="./js/menu.js" defer></script>
+    
 </body>
 
 </html>

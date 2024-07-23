@@ -5,7 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Venta de videojuegos retro para diferentes plataformas.">
+    <meta name="description"
+        content="Venta de videojuegos retro para celular y computador. Encuentra tus juegos favoritos en Videojuegos Retro.">
+    <meta name="keywords" content="videojuegos, retro, celular, computador, juegos, venta">
+    <meta name="author" content="Arturo Rios Castaño">
+    <meta property="og:title" content="Videojuegos Retro">
+    <meta property="og:description"
+        content="Venta de videojuegos retro para celular y computador. Encuentra tus juegos favoritos en Videojuegos Retro.">
+    <meta property="og:image" content="https://videojuegosretro.store/img/logo.png">
+    <meta property="og:url" content="https://videojuegosretro.store">
+    <meta property="og:type" content="website">
+
     <title>Videojuegos Retro</title>
     <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
 
@@ -34,6 +44,7 @@
             <nav>
                 <ul class="menu">
                     <li>
+                        <a class="boton-menu boton-carrito" href="../../android/android.html">Volver a Colombia <img src="../../img/Colombia.png" alt="" style="height: 15px; width: 20px;"></a>
                         <a class="boton-menu boton-carrito" href="../pcx/pcx.html">Ver juegos para <span>🖥️</span></a>
                         <a class="boton-menu boton-carrito" href="./carritox.html">
                             <i class="bi bi-cart-fill"></i>Hacer pago $ <span id="numerito" class="numerito">0</span>
@@ -83,6 +94,19 @@
         <a href="./carritox.html" class="boton-flotante"><i class="bi bi-cart-fill"></i>Hacer pago $ <span
                 id="numerito-flotante" class="numerito">0</span></a>
     </div>
+    <div id="intro-overlay" class="intro-overlay">
+        <div class="intro-content">
+            <i class="bi bi-hand-index"></i>
+            <p>Desliza hacia arriba</p>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.getElementById('intro-overlay').style.display = 'none';
+            }, 2000); // 2000 ms = 2 segundos
+        });
+    </script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="../../js/main.js"></script>

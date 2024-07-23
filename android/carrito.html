@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Carrito de compras de Videojuegos Retro. Compra y paga fácilmente tus videojuegos favoritos.">
+    <meta property="og:title" content="Videojuegos Retro">
+    <meta property="og:description"
+        content="Venta de videojuegos retro para celular y computador. Encuentra tus juegos favoritos en Videojuegos Retro.">
+    <meta property="og:image" content="https://videojuegosretro.store/img/logo.png">
+    <meta property="og:url" content="https://videojuegosretro.store">
+    <meta property="og:type" content="website">
     <title>Videojuegos Retro - Carrito</title>
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 
@@ -67,16 +73,32 @@
                         <div class="carrito-acciones-total">
                             <p id="descuento"></p> <!-- Aquí se mostrará el valor del descuento -->
                             <p>Total:</p>
-                            <p id="total">$3000</p>                            
+                            <p id="total">$3000</p>
                         </div>
                     </div>
                 </div>
 
                 <section class="payment-method">
-                    <h2 class="titulo-principal" id="numero-telefono">Puedes pagar con</h2>
+                    <h2 class="titulo-principal" id="numero-telefono">Puedes pagar al número 3143394021</h2>
+                    <button onclick="copiarAlPortapapeles()" class="copiar">Copiar número</button>
+                    <script>
+                        function copiarAlPortapapeles() {
+                            var numeroTelefono = document.getElementById("numero-telefono").innerText.match(/\d+/);
+                            var tempInput = document.createElement("input");
+                            tempInput.value = numeroTelefono;
+                            document.body.appendChild(tempInput);
+                            tempInput.select();
+                            document.execCommand("copy");
+                            document.body.removeChild(tempInput);
+                            alert("Número de teléfono copiado al portapapeles: " + numeroTelefono);
+                        }
+                    </script>
+                    <br>
+                    <br>
+                    <h2 class="titulo-principal" id="numero-telefono">usando</h2>
                     <div class="mediosdepago">
                         <a href="nequi://app" target="_blank" rel="noopener noreferrer">
-                            <img class="medio" src="../img/nequi.png" alt="Paga con Nequi">
+                            <img class="medio" src="../img/nequi.png" alt="Paga con Nequi" style="height: 60px; width: 45px;">
                         </a>
                         <a href="https://play.google.com/store/apps/details?id=com.davivienda.daviplataapp"
                             target="_blank" rel="noopener noreferrer">
@@ -92,30 +114,19 @@
                             <img class="medio" src="../img/pse.png" alt="Paga con PSE">
                         </a>
                     </div>
-                    <h2 class="titulo-principal" id="numero-telefono">al número 3143394021</h2>
-                    <button onclick="copiarAlPortapapeles()" class="copiar">Copiar número</button>
-                    <script>
-                        function copiarAlPortapapeles() {
-                            var numeroTelefono = document.getElementById("numero-telefono").innerText.match(/\d+/);
-                            var tempInput = document.createElement("input");
-                            tempInput.value = numeroTelefono;
-                            document.body.appendChild(tempInput);
-                            tempInput.select();
-                            document.execCommand("copy");
-                            document.body.removeChild(tempInput);
-                            alert("Número de teléfono copiado al portapapeles: " + numeroTelefono);
-                        }
-                    </script>
+                    <p>(toca la plataforma de pago ☝️)</p>
+
                 </section>
-                <section>
+                <section class="comprobante">
                     <a id="whatsapp-link" href="#" onclick="actualizarMensaje(event)" rel="noopener noreferrer"
                         target="_blank">
+                        <h2 class="titulo-principal" id="numero-telefono">Envíanos por whatsapp el comprobante utilizando el siguiente
+                            botón "enviar comprobante de pago"</h2>
                         <img style="height: 100px; width: 300px;" src="../img/whatsapp.png" alt="WhatsApp">
                         <br>
-                        <p>Envia el comprobante de pago a nuestro whatsapp indicando el nombre del videojuego y te
-                            llegará en respuesta el enlace de descarga del juego y demás archivos necesarios, al
-                            descargarlos haremos videollamada para guiarte en la instalación y configuración del juego
-                            en tu celular.</p>
+                        <h4 class="titulo-principal" id="numero-telefono">Al enviar el comprobante de pago, vas a recibir
+                            en respuesta el enlace de descarga del juego. Al descargarlo, haremos una videollamada para
+                            guiarte en la instalación y configuración del juego en tu celular.</h4>
                     </a>
                 </section>
 

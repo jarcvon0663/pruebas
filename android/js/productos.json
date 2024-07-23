@@ -24,16 +24,16 @@
     "advertencia": "Funciona en cualquier celular"
   },
   {
-    "id": "abrigo-102",
-    "titulo": "Grand Theft Auto San Andreas",
-    "imagen": "../img/pc/gtasa.jpg",
+    "id": "abrigo-344",
+    "titulo": "Acceso a todo el catalogo",
+    "imagen": "../img/pc/todos.jpg",
     "categoria": {
-      "nombre": "Altos requisitos",
-      "id": "PCalta"
+      "nombre": "Bajos requisitos",
+      "id": "PCbaja"
     },
-    "precio": 7000,
-    "trailer": "https://youtu.be/ZO2YOqZ9v_E?si=yUdcFyeZbTIrkwt4",
-    "advertencia": "Requiere 6 o mas GB de RAM"
+    "precio": 30000,
+    "trailer": "pendiente",
+    "advertencia": "Funciona en cualquier celular"
   },
   {
     "id": "abrigo-103",
@@ -2398,6 +2398,18 @@
     "precio": 7000,
     "trailer": "https://youtu.be/l9qCMREV9W0?si=2t1aSZtpohYs2RFv",
     "advertencia": "Funciona en cualquier celular"
+  },
+  {
+    "id": "abrigo-102",
+    "titulo": "Grand Theft Auto San Andreas",
+    "imagen": "../img/pc/gtasa.jpg",
+    "categoria": {
+      "nombre": "Altos requisitos",
+      "id": "PCalta"
+    },
+    "precio": 7000,
+    "trailer": "https://youtu.be/ZO2YOqZ9v_E?si=yUdcFyeZbTIrkwt4",
+    "advertencia": "Requiere 6 o mas GB de RAM"
   },
   {
     "id": "abrigo-300",
