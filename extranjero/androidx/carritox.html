@@ -96,7 +96,7 @@
                                 const titulos = carrito.map(producto => producto.titulo);
 
                                 // Crear el mensaje con los títulos de los videojuegos
-                                const mensaje = encodeURIComponent(`Hola, por favor crear una orden de compra para los siguientes juegos: ${titulos.join(', ')}`);
+                                const mensaje = encodeURIComponent(`Hola, por favor crear una orden de compra en paypal para los siguientes juegos: ${titulos.join(', ')}`);
 
                                 // Construir el enlace de WhatsApp con el mensaje generado
                                 const whatsappUrl = `https://api.whatsapp.com/send?phone=573042672810&text=${mensaje}`;
