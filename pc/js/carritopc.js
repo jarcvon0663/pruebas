@@ -189,7 +189,7 @@ function actualizarMensaje(event) {
     const titulos = carrito.map(producto => producto.titulo);
 
     // Crear el mensaje con los títulos de los videojuegos
-    const mensaje = encodeURIComponent(`Hola, te envío el comprobante de la consignación para los siguientes videojuegos: ${titulos.join(', ')}`);
+    const mensaje = encodeURIComponent(`Hola, te envío el comprobante de la consignación para instalar en mi computador los siguientes videojuegos: ${titulos.join(', ')}`);
 
     // Actualizar el href del enlace del botón de WhatsApp con el mensaje generado
     document.getElementById('whatsapp-link').href = `https://api.whatsapp.com/send?phone=573042672810&text=${mensaje}`;
