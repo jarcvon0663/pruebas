@@ -115,6 +115,27 @@
                         </a>
                     </div>
                     <p>(toca la plataforma de pago ☝️)</p>
+                    <br>
+                    <h2 class="titulo-principal" id="numero-banco">O con Bancolombia, Ahorro a la mano al número 30400010907</h2>
+                    <button onclick="copiarAlPortapapelesBanco()" class="copiar">Copiar número Bancolombia</button>
+                    <script>
+                        function copiarAlPortapapelesBanco() {
+                            var numeroBanco = document.getElementById("numero-banco").innerText.match(/\d+/);
+                            var tempInput = document.createElement("input");
+                            tempInput.value = numeroBanco;
+                            document.body.appendChild(tempInput);
+                            tempInput.select();
+                            document.execCommand("copy");
+                            document.body.removeChild(tempInput);
+                            alert("Número de cuenta copiado al portapapeles: " + numeroBanco);
+                        }
+                    </script>
+                    <br>
+                    <Br></Br>
+                    <a href="https://play.google.com/store/apps/details?id=co.com.tcs.bancolombia.bancaalamano&pcampaignid=web_share"
+                            target="_blank" rel="noopener noreferrer">
+                            <img class="medio" src="../img/bancolombia.png" alt="Paga con ahorro a la mano">
+                        </a>
 
                 </section>
                 <section class="comprobante">
