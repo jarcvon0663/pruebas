@@ -115,65 +115,78 @@ function agregarAlCarrito(e) {
 
     // Verificar si el producto ya está en el carrito
     const productoExistente = productosEnCarrito.find(producto => producto.id === idBoton);
-    if (productoExistente) {
-        // Si el producto ya está en el carrito, mostrar un mensaje
-        Toastify({
-            text: "Este juego ya está en el carrito",
-            duration: 3000,
-            close: true,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            stopOnFocus: true, // Prevents dismissing of toast on hover
-            style: {
-                background: "linear-gradient(to right, #ff6347, #ffc0cb)",
-                borderRadius: "2rem",
-                textTransform: "uppercase",
-                fontSize: ".75rem"
-            },
-            offset: {
-                x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
-                y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
-            },
-            onClick: function(){} // Callback after click
-        }).showToast();
 
-        // Agitar el botón "Hacer pago"
-        agitarBotonPago();
-    } else {
-        // Si el producto no está en el carrito, agregarlo
-        Toastify({
-            text: "Juego agregado, ve al carrito para pagar",
-            duration: 3000,
-            close: true,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            stopOnFocus: true, // Prevents dismissing of toast on hover
-            style: {
-                background: "linear-gradient(to right, #4b33a8, #785ce9)",
-                borderRadius: "2rem",
-                textTransform: "uppercase",
-                fontSize: ".75rem"
-            },
-            offset: {
-                x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
-                y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
-            },
-            onClick: function(){
-                agitarBotonPago();
-            } // Callback after click
-        }).showToast();
+    // Crear el contenido HTML para la notificación
+    const contenido = `
+        <div style="display: flex; align-items: center;">
+            <img src="${productoAgregado.imagen}" alt="Imagen del juego" style="width: 50px; height: 50px; margin-right: 10px;" />
+            <div>
+                <p>${productoExistente ? "Este juego ya está en el carrito" : "Juego agregado al carrito"}</p>
+                <button id="btnHacerPago" style="background-color: #ff6347; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;">Hacer pago</button>
+                <button id="btnSeguirEscogiendo" style="background-color: #785ce9; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;">Seguir escogiendo</button>
+            </div>
+        </div>
+    `;
 
-        // Agregar el producto al carrito
+    // Mostrar la notificación
+    const toast = Toastify({
+        node: (() => {
+            const div = document.createElement("div");
+            div.innerHTML = contenido;
+            return div;
+        })(),
+        gravity: "top",  // Posición superior
+        position: "right",  // En la derecha
+        duration: 7000,  // Duración más larga
+        close: false,  // Ocultar la "X"
+        stopOnFocus: true,  // Evitar que se cierre al pasar el ratón sobre la notificación
+        style: {
+            background: "linear-gradient(to right, #4b33a8, #785ce9)",
+            borderRadius: "2rem",
+            fontSize: ".85rem"
+        }
+    }).showToast();
+
+    // Asignar los eventos a los botones después de mostrar la notificación
+    setTimeout(() => {
+        document.getElementById('btnHacerPago').onclick = () => {
+            document.getElementById('hacerpago').click();  // Simular clic en "Hacer pago"
+        };
+
+        document.getElementById('btnSeguirEscogiendo').onclick = () => {
+            toast.hideToast();  // Cerrar la notificación
+            Toastify({
+                text: "¡Sigue explorando!",
+                duration: 2000,
+                gravity: "top",
+                position: "right",
+                style: {
+                    background: "linear-gradient(to right, #4b33a8, #785ce9)",
+                    borderRadius: "2rem",
+                    fontSize: ".85rem"
+                }
+            }).showToast();
+        };
+    }, 100);  // Esperar un momento para asegurarse de que los botones se carguen
+
+    if (!productoExistente) {
+        // Agregar el producto al carrito si no existe
         productoAgregado.cantidad = 1;
         productosEnCarrito.push(productoAgregado);
         localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 
-        // Ejecutar animación de agregar al carrito
-        animarProductoAlCarrito(e.currentTarget);
+        animarProductoAlCarrito(e.currentTarget);  // Ejecutar la animación de agregar al carrito
     }
 
-    actualizarNumerito();
+    actualizarNumerito();  // Actualizar el numerito del carrito
 }
+
+
+
+
+
+
+
 
 function agitarBotonPago() {
     const botonPago = document.querySelector(".boton-flotante");
