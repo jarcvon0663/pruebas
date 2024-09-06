@@ -27,3 +27,5 @@ El mismo 10 de mayo como un ajuste en producción se agregan los botones PSE y t
 
 23 de julio de 2024, se añaden nuevos juegos y se utiliza el dominio .online para dar una interfaz de acceso más amigable a los compradores del catálogo, también se cambia el mensaje del descuento indicando que por la compra de 5 se obtiene acceso a todo el catálogo. Me dí cuenta que el carrito de android  no tenía el favicon, ya quedó puesto. se actualiza el mensaje de la compra para extranjeros indicando que se cree en paypal la orden de compra. Se actualiza el sitio web con guias y mejoras en la presentación del carrito. se hacen ajustes mínimos en el mensaje de creación de orden en paypal para comu y celular. Se añade el botón contactenos a Androidx.
 4 de agosto de 2024 se agrega el meta de la imagen mostrando catálogo aqui
+
+6 de septiembre de 2024, se modifica la barra de notificación cuando los usuarios agregan un juego, mostrando ahora una imagen del juego y dos botones, hacer pago y seguir escogiendo.
