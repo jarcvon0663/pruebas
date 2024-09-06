@@ -131,10 +131,10 @@ function agregarAlCarrito(e) {
 
   // Crear el contenido HTML para la notificación
   const contenido = `
-        <div style="display: flex; align-items: center; padding: 10px; max-width: 300px; margin: 10px auto;">
-        <img src="${productoAgregado.imagen}" alt="Imagen del juego" style="width: 50px; height: 50px; margin-right: 10px;" />
+        <div style="display: flex; align-items: center; padding: 5px; width: 100vw; max-width: 300px; margin: 10px auto;">
+        <img src="${productoAgregado.imagen}" alt="Imagen del juego" style="width: 70px; height: 70px; margin-right: 5px;" />
         <div style="flex: 1;">
-            <p style="margin: 0; font-size: 14px; color: #ffffff;">${productoExistente ? "Este juego ya está en el carrito" : "Juego agregado al carrito"}</p>
+            <p style="margin: 0; font-size: 14px; color: #ffffff;">${productoAgregado.titulo} ${productoExistente ? "ya está en el carrito" : "se agregó al carrito"}</p>
             <div style="margin-top: 10px;">
                 <button id="btnHacerPago" style="background-color: #00641e; color: white; padding: 8px 12px; border: none; border-radius: 5px; cursor: pointer; margin-right: 5px;">Pagar</button>
                 <button id="btnSeguirEscogiendo" style="background-color: #ff0000; color: white; padding: 8px 12px; border: none; border-radius: 5px; cursor: pointer;">Añadir +</button>
@@ -151,7 +151,7 @@ function agregarAlCarrito(e) {
       return div;
     })(),
     gravity: "top", // Posición superior
-    position: "right", // En la derecha
+    position: "center", // En la derecha
     duration: 7000, // Duración más larga
     close: false, // Ocultar la "X"
     stopOnFocus: true, // Evitar que se cierre al pasar el ratón sobre la notificación
