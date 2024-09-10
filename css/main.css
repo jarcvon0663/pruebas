@@ -8,6 +8,7 @@
     --clr-red: #961818;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -450,6 +451,8 @@ main {
     text-transform: uppercase;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     gap: 1rem;
 }
 
@@ -463,6 +466,26 @@ main {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
+.metodo-pago {
+    background-color: var(--clr-gray); /* Mismo color que otros elementos */
+    padding: 1rem;
+    color: var(--clr-main); /* Usa el mismo color principal */
+    text-transform: uppercase; /* Para que coincida con el texto en mayúsculas */
+    border-radius: 1rem; /* Borde redondeado similar al de otros botones */
+    border: 0; /* Sin borde */
+    width: 100%; /* Ocupa todo el ancho */
+    cursor: pointer; /* Hace que el select parezca interactivo */
+    font-size: 1rem; /* Tamaño de fuente adecuado */
+    margin-bottom: 1rem; /* Añade un margen para separar el botón y otros elementos */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Añade sombra sutil */
+}
+
+.metodo-pago option {
+    background-color: var(--clr-white); /* Fondo blanco para las opciones */
+    color: var(--clr-main); /* Texto del color principal */
+}
+
 
 .header-mobile {
     display: none;
@@ -508,24 +531,24 @@ iframe {
 }
 
 .copiar {
-    min-width: 100px;
-    height: 30px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
+    border: 0;
+    background-color: var(--clr-main); /* Mismo color que el botón "Comprar" */
+    padding: 1rem;
+    color: var(--clr-white); /* Texto en blanco */
+    text-transform: uppercase;
     cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #4433ff;
-    background: #4433ff;
-  }
-  .copiar:hover {
-    background: #fff;
-    color: #4433ff
-  }
+    border-radius: 1rem; /* Borde redondeado */
+    width: 100%; /* Ocupa todo el ancho */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Añade sombra sutil */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+.copiar:hover {
+    background-color: #024717; /* Cambia el color de fondo al pasar el ratón */
+    color: #fff; /* Cambia el color del texto */
+}
+
 
 .logo-img { 
     height: 100px;
@@ -639,8 +662,6 @@ iframe {
 }
 
 
-
-
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 850px) {
@@ -741,4 +762,5 @@ iframe {
         flex-wrap: wrap;
         row-gap: 1rem;
     }
+
 }

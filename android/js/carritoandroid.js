@@ -124,6 +124,83 @@ function vaciarCarrito() {
     });
 }
 
+function mostrarMetodoPago() {
+    var metodoSeleccionado = document.getElementById("metodo-pago").value;
+
+    if (!metodoSeleccionado) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'Por favor selecciona un método de pago'
+        });
+        return;
+    }
+
+    // Obtener el total a pagar desde el DOM
+    var totalPagar = document.getElementById("total").textContent;
+
+    // Configuración para cada método de pago
+    var infoPago = {
+        nequi: {
+            titulo: "3143394021",
+            texto: `Total a pagar: ${totalPagar}`,
+            link: "nequi://app",
+            img: "../img/nequi.png"
+        },
+        daviplata: {
+            titulo: "3143394021",
+            texto: `Total a pagar: ${totalPagar}`,
+            link: "https://play.google.com/store/apps/details?id=com.davivienda.daviplataapp",
+            img: "../img/daviplata.png"
+        },
+        dale: {
+            titulo: "3143394021",
+            texto: `Total a pagar: ${totalPagar}`,
+            link: "https://play.google.com/store/apps/details?id=com.avalsolucionesdigitalessa.dale_app_embedded",
+            img: "../img/dale.png"
+        },
+        transfiya: {
+            titulo: "3143394021",
+            texto: `Desde cualquier aplicación bancaria paga por transfiya al Nequi 3143394021\nTotal a pagar: ${totalPagar}`,
+            img: "../img/transfiya.png"
+        },
+        pse: {
+            titulo: "Realiza una recarga desde cualquier entidad bancaria a Nequi 3143394021",
+            texto: `Total a pagar: ${totalPagar}`,
+            link: "https://recarga.nequi.com.co/bdigitalpsl/?_ga=2.189700267.1416431342.1700047997",
+            img: "../img/pse.png"
+        },
+        bancolombia: {
+            titulo: "Bancolombia o Ahorro a la mano cuenta de ahorros: 30400010907",
+            texto: `Total a pagar: ${totalPagar}`,
+            link: "https://play.google.com/store/apps/details?id=co.com.tcs.bancolombia.bancaalamano",
+            img: "../img/bancolombia.png"
+        }
+    };
+
+    var metodo = infoPago[metodoSeleccionado];
+    
+    Swal.fire({
+        title: metodo.titulo,
+        text: metodo.texto,
+        imageUrl: metodo.img,
+        imageWidth: 100,
+        imageHeight: 100,
+        confirmButtonText: 'Abrir la APP',
+        showCancelButton: true,
+        cancelButtonText: 'Cerrar',
+        background: '#ececec', // Fondo gris claro
+        color: 'var(--clr-main)', // Asegúrate de que el texto sea visible
+        imageAlt: metodo.titulo // Alternativo de imagen para accesibilidad
+    }).then((result) => {
+        if (result.isConfirmed && metodo.link) {
+            window.open(metodo.link, "_blank");
+        }
+    });
+    
+}
+
+
 botonComprar.addEventListener("click", comprarCarrito);
 function comprarCarrito() {
     productosEnCarrito.length = 0;
