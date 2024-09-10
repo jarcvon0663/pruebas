@@ -29,3 +29,5 @@ El mismo 10 de mayo como un ajuste en producción se agregan los botones PSE y t
 4 de agosto de 2024 se agrega el meta de la imagen mostrando catálogo aqui
 
 6 de septiembre de 2024, se modifica la barra de notificación cuando los usuarios agregan un juego, mostrando ahora una imagen del juego y dos botones, hacer pago y seguir escogiendo, se ajusta para mejorar su visualización en dispositivos moviles.
+
+9 de septiembre 2024, se actualiza la UX de los medios de pago 
