@@ -30,7 +30,7 @@ function cargarProductosCarrito() {
                 </div>
                 <div class="carrito-producto-precio">
                     <small>Precio</small>
-                    <p>$${producto.precio}</p>
+                    <p>$${producto.precio.toLocaleString('es-CO')}</p>
                 </div>
                 <button class="carrito-producto-eliminar" id="${producto.id}"><i class="bi bi-trash-fill"></i></button>
             `;
@@ -143,19 +143,19 @@ function mostrarMetodoPago() {
     var infoPago = {
         nequi: {
             titulo: "3143394021",
-            texto: `Total a pagar: ${totalPagar}`,
+            texto: `a nombre de Jei*** R***<br><br><b>Total a pagar: ${totalPagar}</b>`,
             link: "nequi://app",
             img: "../img/nequi.png"
         },
         daviplata: {
             titulo: "3143394021",
-            texto: `Total a pagar: ${totalPagar}`,
+            texto: `a nombre de Jei*** R***<br><br><b>Total a pagar: ${totalPagar}</b>`,
             link: "https://play.google.com/store/apps/details?id=com.davivienda.daviplataapp",
             img: "../img/daviplata.png"
         },
         dale: {
             titulo: "3143394021",
-            texto: `Total a pagar: ${totalPagar}`,
+            texto: `a nombre de Jei*** R***<br><br><b>Total a pagar: ${totalPagar}</b>`,
             link: "https://play.google.com/store/apps/details?id=com.avalsolucionesdigitalessa.dale_app_embedded",
             img: "../img/dale.png"
         },
@@ -182,7 +182,7 @@ function mostrarMetodoPago() {
     
     Swal.fire({
         title: metodo.titulo,
-        text: metodo.texto,
+        html: metodo.texto, // Cambiar de 'text' a 'html' para interpretar etiquetas HTML
         imageUrl: metodo.img,
         imageWidth: 100,
         imageHeight: 100,
@@ -246,12 +246,12 @@ function actualizarTotal() {
     }
 
     // Actualizar el texto del total en el HTML
-    total.innerText = `$${totalCalculado}`;
+    total.innerText = `$${totalCalculado.toLocaleString('es-CO')}`;
 
     // Actualizar el texto del descuento en el HTML
     const descuentoElement = document.getElementById("descuento");
     if (descuento > 0) {
-        descuentoElement.textContent = `Descuento: -$${descuento}`;
+        descuentoElement.textContent = `Descuento: -$${descuento.toLocaleString('es-CO')}`;
     } else {
         descuentoElement.textContent = "";
     }

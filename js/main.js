@@ -30,7 +30,7 @@ function cargarProductos(productosElegidos) {
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">Precio $${producto.precio}</p>
+                <p class="producto-precio">Precio $${producto.precio.toLocaleString('es-CO')}</p>
                 <a class="producto-trailer" href="${producto.trailer}" target="_blank">
                 <p class="video-trailer">
                 <span class="emoji">🎬</span>Vídeo
