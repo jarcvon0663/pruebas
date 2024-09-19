@@ -2,7 +2,7 @@
   {
     "id": "abrigo-100",
     "titulo": "Black",
-    "imagen": "../img/pc/black.jpg",
+    "imagen": "../img/portadas/black.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -14,7 +14,7 @@
   {
     "id": "abrigo-101",
     "titulo": "Crash Team Racing",
-    "imagen": "../img/pc/57.jpg",
+    "imagen": "../img/portadas/57.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -24,21 +24,21 @@
     "advertencia": "Funciona en cualquier celular"
   },
   {
-    "id": "abrigo-344",
-    "titulo": "Acceso a todo el catalogo",
-    "imagen": "../img/pc/todos.jpg",
+    "id": "abrigo-102",
+    "titulo": "Grand Theft Auto San Andreas",
+    "imagen": "../img/portadas/gtasa.webp",
     "categoria": {
-      "nombre": "Bajos requisitos",
-      "id": "PCbaja"
+      "nombre": "Altos requisitos",
+      "id": "PCalta"
     },
-    "precio": 30000,
-    "trailer": "pendiente",
-    "advertencia": "Funciona en cualquier celular"
+    "precio": 7000,
+    "trailer": "https://youtu.be/ZO2YOqZ9v_E?si=yUdcFyeZbTIrkwt4",
+    "advertencia": "Requiere 6 o mas GB de RAM"
   },
   {
     "id": "abrigo-103",
     "titulo": "Resident Evil 3",
-    "imagen": "../img/pc/47.jpg",
+    "imagen": "../img/portadas/47.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -50,7 +50,7 @@
   {
     "id": "abrigo-104",
     "titulo": "Grand Theft Auto 3",
-    "imagen": "../img/pc/gta3.jpg",
+    "imagen": "../img/portadas/gta3.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -62,7 +62,7 @@
   {
     "id": "abrigo-105",
     "titulo": "Nascar Rumble",
-    "imagen": "../img/pc/NascarRumble.jpg",
+    "imagen": "../img/portadas/NascarRumble.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -74,7 +74,7 @@
   {
     "id": "abrigo-106",
     "titulo": "Need for Speed Most Wanted",
-    "imagen": "../img/pc/nfsmw.jpg",
+    "imagen": "../img/portadas/nfsmw.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -86,7 +86,7 @@
   {
     "id": "abrigo-107",
     "titulo": "007 Goldeneye",
-    "imagen": "../img/pc/goldeneye.jpg",
+    "imagen": "../img/portadas/goldeneye.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -98,7 +98,7 @@
   {
     "id": "abrigo-108",
     "titulo": "Need for Speed Underground",
-    "imagen": "../img/pc/nfsu.jpg",
+    "imagen": "../img/portadas/nfsu.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -110,7 +110,7 @@
   {
     "id": "abrigo-109",
     "titulo": "Super Mario 64",
-    "imagen": "../img/pc/mario64.jpg",
+    "imagen": "../img/portadas/mario64.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -122,7 +122,7 @@
   {
     "id": "abrigo-110",
     "titulo": "Need for Speed Underground 2",
-    "imagen": "../img/pc/nfsu2.jpg",
+    "imagen": "../img/portadas/nfsu2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -134,7 +134,7 @@
   {
     "id": "abrigo-111",
     "titulo": "Driver 2",
-    "imagen": "../img/pc/59.jpg",
+    "imagen": "../img/portadas/59.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -146,7 +146,7 @@
   {
     "id": "abrigo-112",
     "titulo": "Resident Evil 4",
-    "imagen": "../img/pc/residentevil4.jpg",
+    "imagen": "../img/portadas/residentevil4.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -158,7 +158,7 @@
   {
     "id": "abrigo-113",
     "titulo": "Vigilante 8",
-    "imagen": "../img/pc/Vigilante8.jpg",
+    "imagen": "../img/portadas/Vigilante8.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -170,7 +170,7 @@
   {
     "id": "abrigo-114",
     "titulo": "Spiderman Ultimate",
-    "imagen": "../img/pc/spidermanultimate.jpg",
+    "imagen": "../img/portadas/spidermanultimate.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -182,7 +182,7 @@
   {
     "id": "abrigo-115",
     "titulo": "Pepsiman",
-    "imagen": "../img/pc/132.jpg",
+    "imagen": "../img/portadas/132.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -194,7 +194,7 @@
   {
     "id": "abrigo-116",
     "titulo": "God of War 1",
-    "imagen": "../img/pc/gow1.jpg",
+    "imagen": "../img/portadas/gow1.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -206,7 +206,7 @@
   {
     "id": "abrigo-117",
     "titulo": "King Of Fighters 97",
-    "imagen": "../img/pc/KOF97.jpg",
+    "imagen": "../img/portadas/KOF97.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -218,7 +218,7 @@
   {
     "id": "abrigo-118",
     "titulo": "Dragon ball z budokai tenkaichi 3",
-    "imagen": "../img/pc/dbz.jpg",
+    "imagen": "../img/portadas/dbz.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -230,7 +230,7 @@
   {
     "id": "abrigo-119",
     "titulo": "Crash Bandicoot",
-    "imagen": "../img/pc/032.jpg",
+    "imagen": "../img/portadas/032.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -242,7 +242,7 @@
   {
     "id": "abrigo-120",
     "titulo": "Def Jam Fight NY",
-    "imagen": "../img/pc/DJFNY.jpg",
+    "imagen": "../img/portadas/DJFNY.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -254,7 +254,7 @@
   {
     "id": "abrigo-121",
     "titulo": "Samurai Shodown",
-    "imagen": "../img/pc/Samurai.jpg",
+    "imagen": "../img/portadas/Samurai.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -266,7 +266,7 @@
   {
     "id": "abrigo-122",
     "titulo": "Darkwatch",
-    "imagen": "../img/pc/darkwatch.jpg",
+    "imagen": "../img/portadas/darkwatch.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -278,7 +278,7 @@
   {
     "id": "abrigo-123",
     "titulo": "Pokemon",
-    "imagen": "../img/pc/pokemon.jpg",
+    "imagen": "../img/portadas/pokemon.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -290,7 +290,7 @@
   {
     "id": "abrigo-124",
     "titulo": "Crazy Taxi",
-    "imagen": "../img/pc/crazy-taxi.jpg",
+    "imagen": "../img/portadas/crazy-taxi.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -302,7 +302,7 @@
   {
     "id": "abrigo-125",
     "titulo": "Mario Kart",
-    "imagen": "../img/pc/mario kart.jpg",
+    "imagen": "../img/portadas/mario kart.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -314,7 +314,7 @@
   {
     "id": "abrigo-126",
     "titulo": "Conflict Vietnam",
-    "imagen": "../img/pc/conflictvietnam.jpg",
+    "imagen": "../img/portadas/conflictvietnam.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -326,7 +326,7 @@
   {
     "id": "abrigo-127",
     "titulo": "Medal of Honor Underground",
-    "imagen": "../img/pc/42.jpg",
+    "imagen": "../img/portadas/42.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -338,7 +338,7 @@
   {
     "id": "abrigo-128",
     "titulo": "Burnout 3 takedown",
-    "imagen": "../img/pc/burnout-3-takedown.jpg",
+    "imagen": "../img/portadas/burnout-3-takedown.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -350,7 +350,7 @@
   {
     "id": "abrigo-129",
     "titulo": "Winning Eleven 2002",
-    "imagen": "../img/pc/WinningEleven2002.jpg",
+    "imagen": "../img/portadas/WinningEleven2002.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -362,7 +362,7 @@
   {
     "id": "abrigo-130",
     "titulo": "Dragon ball z budokai tenkaichi 2",
-    "imagen": "../img/pc/dragon-ball-z-budokai-tenkaichi-2.jpg",
+    "imagen": "../img/portadas/dragon-ball-z-budokai-tenkaichi-2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -374,7 +374,7 @@
   {
     "id": "abrigo-131",
     "titulo": "Yu-Gi-Oh",
-    "imagen": "../img/pc/yugioh.jpg",
+    "imagen": "../img/portadas/yugioh.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -386,7 +386,7 @@
   {
     "id": "abrigo-132",
     "titulo": "Dragon ball z budokai tenkaichi",
-    "imagen": "../img/pc/dragon-ball-z-budokai-tenkaichi.jpg",
+    "imagen": "../img/portadas/dragon-ball-z-budokai-tenkaichi.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -398,7 +398,7 @@
   {
     "id": "abrigo-133",
     "titulo": "Mortal Kombat 4",
-    "imagen": "../img/pc/MortalKombat4.jpg",
+    "imagen": "../img/portadas/MortalKombat4.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -410,7 +410,7 @@
   {
     "id": "abrigo-134",
     "titulo": "Driver 3",
-    "imagen": "../img/pc/driv3r.jpg",
+    "imagen": "../img/portadas/driv3r.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -422,7 +422,7 @@
   {
     "id": "abrigo-135",
     "titulo": "Jackie Chan Stuntmaster",
-    "imagen": "../img/pc/41.jpg",
+    "imagen": "../img/portadas/41.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -434,7 +434,7 @@
   {
     "id": "abrigo-136",
     "titulo": "Freedom Fighters",
-    "imagen": "../img/pc/freedomfighters.jpg",
+    "imagen": "../img/portadas/freedomfighters.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -446,7 +446,7 @@
   {
     "id": "abrigo-137",
     "titulo": "Silent Hill",
-    "imagen": "../img/pc/49.jpg",
+    "imagen": "../img/portadas/49.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -458,7 +458,7 @@
   {
     "id": "abrigo-138",
     "titulo": "Ghost Recon AW",
-    "imagen": "../img/pc/GhostReconAW.jpg",
+    "imagen": "../img/portadas/GhostReconAW.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -470,7 +470,7 @@
   {
     "id": "abrigo-139",
     "titulo": "Spider-Man",
-    "imagen": "../img/pc/50.jpg",
+    "imagen": "../img/portadas/50.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -482,7 +482,7 @@
   {
     "id": "abrigo-140",
     "titulo": "God of War 2",
-    "imagen": "../img/pc/gow2.jpg",
+    "imagen": "../img/portadas/gow2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -494,7 +494,7 @@
   {
     "id": "abrigo-141",
     "titulo": "Coyote Sheep Raider",
-    "imagen": "../img/pc/coyote.jpg",
+    "imagen": "../img/portadas/coyote.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -506,7 +506,7 @@
   {
     "id": "abrigo-142",
     "titulo": "Gran Turismo 4",
-    "imagen": "../img/pc/gt4.jpg",
+    "imagen": "../img/portadas/gt4.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -518,7 +518,7 @@
   {
     "id": "abrigo-143",
     "titulo": "Gran Turismo 2",
-    "imagen": "../img/pc/GT2.jpg",
+    "imagen": "../img/portadas/GT2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -530,7 +530,7 @@
   {
     "id": "abrigo-144",
     "titulo": "Grand Theft Auto Vice City",
-    "imagen": "../img/pc/gtavc.jpg",
+    "imagen": "../img/portadas/gtavc.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -542,7 +542,7 @@
   {
     "id": "abrigo-145",
     "titulo": "Need for Speed High Stakes",
-    "imagen": "../img/pc/nfshs.jpg",
+    "imagen": "../img/portadas/nfshs.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -554,7 +554,7 @@
   {
     "id": "abrigo-146",
     "titulo": "Grand Theft Auto Liberty City Stories",
-    "imagen": "../img/pc/gtalcs.jpg",
+    "imagen": "../img/portadas/gtalcs.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -566,7 +566,7 @@
   {
     "id": "abrigo-147",
     "titulo": "Metal Slug X",
-    "imagen": "../img/pc/43.jpg",
+    "imagen": "../img/portadas/43.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -578,7 +578,7 @@
   {
     "id": "abrigo-148",
     "titulo": "Grand Theft Auto Vice City Stories",
-    "imagen": "../img/pc/gtavcs.jpg",
+    "imagen": "../img/portadas/gtavcs.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -590,7 +590,7 @@
   {
     "id": "abrigo-149",
     "titulo": "Driver 1",
-    "imagen": "../img/pc/58.jpg",
+    "imagen": "../img/portadas/58.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -602,7 +602,7 @@
   {
     "id": "abrigo-150",
     "titulo": "The King of Fighters 2002",
-    "imagen": "../img/pc/kof2002.jpg",
+    "imagen": "../img/portadas/kof2002.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -614,7 +614,7 @@
   {
     "id": "abrigo-151",
     "titulo": "Soul Reaver",
-    "imagen": "../img/pc/soulreaver.jpg",
+    "imagen": "../img/portadas/soulreaver.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -626,7 +626,7 @@
   {
     "id": "abrigo-152",
     "titulo": "Mafia",
-    "imagen": "../img/pc/mafia.jpg",
+    "imagen": "../img/portadas/mafia.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -638,7 +638,7 @@
   {
     "id": "abrigo-153",
     "titulo": "Bugs Bunny y Taz",
-    "imagen": "../img/pc/55.jpg",
+    "imagen": "../img/portadas/55.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -650,7 +650,7 @@
   {
     "id": "abrigo-154",
     "titulo": "Metal Gear Solid 2 sons of liberty",
-    "imagen": "../img/pc/metal-gear-solid-2-sons-of-liberty.jpg",
+    "imagen": "../img/portadas/metal-gear-solid-2-sons-of-liberty.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -662,7 +662,7 @@
   {
     "id": "abrigo-155",
     "titulo": "Bloody Roar 2",
-    "imagen": "../img/pc/BloodyRoar2.jpg",
+    "imagen": "../img/portadas/BloodyRoar2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -674,7 +674,7 @@
   {
     "id": "abrigo-156",
     "titulo": "Need for Speed Carbon",
-    "imagen": "../img/pc/nfsc.jpg",
+    "imagen": "../img/portadas/nfsc.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -686,7 +686,7 @@
   {
     "id": "abrigo-157",
     "titulo": "Road Rash Jailbreak",
-    "imagen": "../img/pc/48.jpg",
+    "imagen": "../img/portadas/48.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -698,7 +698,7 @@
   {
     "id": "abrigo-158",
     "titulo": "Need for Speed Pro Street",
-    "imagen": "../img/pc/nfsprostreet.jpg",
+    "imagen": "../img/portadas/nfsprostreet.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -710,7 +710,7 @@
   {
     "id": "abrigo-159",
     "titulo": "Tekken 3",
-    "imagen": "../img/pc/Tekken3.jpg",
+    "imagen": "../img/portadas/Tekken3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -722,7 +722,7 @@
   {
     "id": "abrigo-160",
     "titulo": "Need for Speed Undercover",
-    "imagen": "../img/pc/nfsundercover.jpg",
+    "imagen": "../img/portadas/nfsundercover.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -734,7 +734,7 @@
   {
     "id": "abrigo-161",
     "titulo": "Dino Crisis 2",
-    "imagen": "../img/pc/dinocrisis2.jpg",
+    "imagen": "../img/portadas/dinocrisis2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -746,7 +746,7 @@
   {
     "id": "abrigo-162",
     "titulo": "PES 2014",
-    "imagen": "../img/pc/PES2014.jpg",
+    "imagen": "../img/portadas/PES2014.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -758,7 +758,7 @@
   {
     "id": "abrigo-163",
     "titulo": "Test Drive 6",
-    "imagen": "../img/pc/TestDrive6.jpg",
+    "imagen": "../img/portadas/TestDrive6.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -770,7 +770,7 @@
   {
     "id": "abrigo-164",
     "titulo": "Return to the Castle Wolfenstein",
-    "imagen": "../img/pc/return.jpg",
+    "imagen": "../img/portadas/return.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -782,7 +782,7 @@
   {
     "id": "abrigo-165",
     "titulo": "Syphon Filter",
-    "imagen": "../img/pc/51.jpg",
+    "imagen": "../img/portadas/51.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -794,7 +794,7 @@
   {
     "id": "abrigo-166",
     "titulo": "Silent Hill 2",
-    "imagen": "../img/pc/silenthill2.jpg",
+    "imagen": "../img/portadas/silenthill2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -806,7 +806,7 @@
   {
     "id": "abrigo-167",
     "titulo": "Harry Potter y la Camara de los Secretos",
-    "imagen": "../img/pc/40.jpg",
+    "imagen": "../img/portadas/40.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -818,7 +818,7 @@
   {
     "id": "abrigo-168",
     "titulo": "Simpsons Hit and Run",
-    "imagen": "../img/pc/SimpsonsHR.jpg",
+    "imagen": "../img/portadas/SimpsonsHR.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -830,7 +830,7 @@
   {
     "id": "abrigo-169",
     "titulo": "Metal Gear ",
-    "imagen": "../img/pc/MetalGear.jpg",
+    "imagen": "../img/portadas/MetalGear.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -842,7 +842,7 @@
   {
     "id": "abrigo-170",
     "titulo": "Tekken 5",
-    "imagen": "../img/pc/Tekken5.jpg",
+    "imagen": "../img/portadas/Tekken5.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -854,7 +854,7 @@
   {
     "id": "abrigo-171",
     "titulo": "CART World Series",
-    "imagen": "../img/pc/cart.jpg",
+    "imagen": "../img/portadas/cart.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -866,7 +866,7 @@
   {
     "id": "abrigo-172",
     "titulo": "True Crime NY",
-    "imagen": "../img/pc/TrueCrimeNY.jpg",
+    "imagen": "../img/portadas/TrueCrimeNY.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -878,7 +878,7 @@
   {
     "id": "abrigo-173",
     "titulo": "Resident Evil 2",
-    "imagen": "../img/pc/46.jpg",
+    "imagen": "../img/portadas/46.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -890,7 +890,7 @@
   {
     "id": "abrigo-174",
     "titulo": "True Crime LA",
-    "imagen": "../img/pc/TrueCrimeLA.jpg",
+    "imagen": "../img/portadas/TrueCrimeLA.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -902,7 +902,7 @@
   {
     "id": "abrigo-175",
     "titulo": "Formula 1 2001",
-    "imagen": "../img/pc/Formula12001.jpg",
+    "imagen": "../img/portadas/Formula12001.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -914,7 +914,7 @@
   {
     "id": "abrigo-176",
     "titulo": "18 wheeler american",
-    "imagen": "../img/pc/18-wheeler-american-pro-trucker.jpeg",
+    "imagen": "../img/portadas/18-wheeler-american-pro-trucker.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -926,7 +926,7 @@
   {
     "id": "abrigo-177",
     "titulo": "V-Rally 2 Championship",
-    "imagen": "../img/pc/vrally2.jpg",
+    "imagen": "../img/portadas/vrally2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -938,7 +938,7 @@
   {
     "id": "abrigo-178",
     "titulo": "187 ride or ride",
-    "imagen": "../img/pc/187-ride-or-ride.jpg",
+    "imagen": "../img/portadas/187-ride-or-ride.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -950,7 +950,7 @@
   {
     "id": "abrigo-179",
     "titulo": "Eagle One Harrier Attack",
-    "imagen": "../img/pc/EagleOne.jpg",
+    "imagen": "../img/portadas/EagleOne.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -962,7 +962,7 @@
   {
     "id": "abrigo-180",
     "titulo": "Ace combat 5",
-    "imagen": "../img/pc/ace-combat-5.jpg",
+    "imagen": "../img/portadas/ace-combat-5.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -974,7 +974,7 @@
   {
     "id": "abrigo-181",
     "titulo": "Pokemon Stadium",
-    "imagen": "../img/pc/pokemonstadium.jpg",
+    "imagen": "../img/portadas/pokemonstadium.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -986,7 +986,7 @@
   {
     "id": "abrigo-182",
     "titulo": "Airborne troops countdown to d day",
-    "imagen": "../img/pc/airborne-troops-countdown-to-d-day.jpg",
+    "imagen": "../img/portadas/airborne-troops-countdown-to-d-day.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -998,7 +998,7 @@
   {
     "id": "abrigo-183",
     "titulo": "Destruction Derby",
-    "imagen": "../img/pc/DestructionDerby.jpg",
+    "imagen": "../img/portadas/DestructionDerby.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1010,7 +1010,7 @@
   {
     "id": "abrigo-184",
     "titulo": "Bad boys miami takedown",
-    "imagen": "../img/pc/bad-boys-miami-takedown.jpg",
+    "imagen": "../img/portadas/bad-boys-miami-takedown.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1022,7 +1022,7 @@
   {
     "id": "abrigo-185",
     "titulo": "Twisted Metal 4",
-    "imagen": "../img/pc/TwistedMetal4.jpg",
+    "imagen": "../img/portadas/TwistedMetal4.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1034,7 +1034,7 @@
   {
     "id": "abrigo-186",
     "titulo": "Batman begins",
-    "imagen": "../img/pc/batman-begins.jpg",
+    "imagen": "../img/portadas/batman-begins.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1046,7 +1046,7 @@
   {
     "id": "abrigo-187",
     "titulo": "Police Chases",
-    "imagen": "../img/pc/PoliceChases.jpg",
+    "imagen": "../img/portadas/PoliceChases.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1058,7 +1058,7 @@
   {
     "id": "abrigo-188",
     "titulo": "Super Bikes",
-    "imagen": "../img/pc/bikes.jpg",
+    "imagen": "../img/portadas/bikes.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1070,7 +1070,7 @@
   {
     "id": "abrigo-189",
     "titulo": "Digimon",
-    "imagen": "../img/pc/Digimon.jpg",
+    "imagen": "../img/portadas/Digimon.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1082,7 +1082,7 @@
   {
     "id": "abrigo-190",
     "titulo": "Blade 2",
-    "imagen": "../img/pc/blade2.jpg",
+    "imagen": "../img/portadas/blade2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1094,7 +1094,7 @@
   {
     "id": "abrigo-191",
     "titulo": "Gran Turismo",
-    "imagen": "../img/pc/GT.jpg",
+    "imagen": "../img/portadas/GT.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1106,7 +1106,7 @@
   {
     "id": "abrigo-192",
     "titulo": "Burnout 2 point of impact",
-    "imagen": "../img/pc/burnout-2-point-of-impact.jpg",
+    "imagen": "../img/portadas/burnout-2-point-of-impact.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1118,7 +1118,7 @@
   {
     "id": "abrigo-193",
     "titulo": "Star Wars Jedi",
-    "imagen": "../img/pc/Jedi.jpg",
+    "imagen": "../img/portadas/Jedi.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1130,7 +1130,7 @@
   {
     "id": "abrigo-194",
     "titulo": "Burnout",
-    "imagen": "../img/pc/burnout-ps2.jpg",
+    "imagen": "../img/portadas/burnout-ps2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1142,7 +1142,7 @@
   {
     "id": "abrigo-195",
     "titulo": "Mortal Kombat Trilogy",
-    "imagen": "../img/pc/112.jpg",
+    "imagen": "../img/portadas/112.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1154,7 +1154,7 @@
   {
     "id": "abrigo-196",
     "titulo": "Call of duty 3",
-    "imagen": "../img/pc/call-of-duty-3.jpg",
+    "imagen": "../img/portadas/call-of-duty-3.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1166,7 +1166,7 @@
   {
     "id": "abrigo-197",
     "titulo": "Spyro 2",
-    "imagen": "../img/pc/Spyro2.jpg",
+    "imagen": "../img/portadas/Spyro2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1178,7 +1178,7 @@
   {
     "id": "abrigo-198",
     "titulo": "Cars",
-    "imagen": "../img/pc/cars.jpg",
+    "imagen": "../img/portadas/cars.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1190,7 +1190,7 @@
   {
     "id": "abrigo-199",
     "titulo": "Toy Story 2",
-    "imagen": "../img/pc/toystory.jpg",
+    "imagen": "../img/portadas/toystory.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1202,7 +1202,7 @@
   {
     "id": "abrigo-200",
     "titulo": "Cold Fear",
-    "imagen": "../img/pc/ColdFear.jpg",
+    "imagen": "../img/portadas/ColdFear.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1214,7 +1214,7 @@
   {
     "id": "abrigo-201",
     "titulo": "Spiderman 2",
-    "imagen": "../img/pc/spiderman2.jpg",
+    "imagen": "../img/portadas/spiderman2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1226,7 +1226,7 @@
   {
     "id": "abrigo-202",
     "titulo": "Constantine",
-    "imagen": "../img/pc/constantine.jpg",
+    "imagen": "../img/portadas/constantine.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1238,7 +1238,7 @@
   {
     "id": "abrigo-203",
     "titulo": "Spec Ops Cover Assault",
-    "imagen": "../img/pc/specopsca.jpg",
+    "imagen": "../img/portadas/specopsca.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1250,7 +1250,7 @@
   {
     "id": "abrigo-204",
     "titulo": "Driver parallel lines",
-    "imagen": "../img/pc/driver-parallel-lines.jpg",
+    "imagen": "../img/portadas/driver-parallel-lines.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1262,7 +1262,7 @@
   {
     "id": "abrigo-205",
     "titulo": "Rayman 2",
-    "imagen": "../img/pc/Rayman2.jpg",
+    "imagen": "../img/portadas/Rayman2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1274,7 +1274,7 @@
   {
     "id": "abrigo-206",
     "titulo": "Fifa 14",
-    "imagen": "../img/pc/Fifa14.jpg",
+    "imagen": "../img/portadas/Fifa14.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1286,7 +1286,7 @@
   {
     "id": "abrigo-207",
     "titulo": "Soccer pro 98",
-    "imagen": "../img/pc/pro98.jpg",
+    "imagen": "../img/portadas/pro98.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1298,7 +1298,7 @@
   {
     "id": "abrigo-208",
     "titulo": "Gran Turismo 3",
-    "imagen": "../img/pc/gran-turismo-3-a-spec.jpg",
+    "imagen": "../img/portadas/gran-turismo-3-a-spec.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1310,7 +1310,7 @@
   {
     "id": "abrigo-209",
     "titulo": "Duke Nukem",
-    "imagen": "../img/pc/DukeNuke.jpg",
+    "imagen": "../img/portadas/DukeNuke.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1322,7 +1322,7 @@
   {
     "id": "abrigo-210",
     "titulo": "Guitar Hero metallica",
-    "imagen": "../img/pc/guitar-hero-metallica.jpg",
+    "imagen": "../img/portadas/guitar-hero-metallica.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1334,7 +1334,7 @@
   {
     "id": "abrigo-211",
     "titulo": "Guerra de Marranos",
-    "imagen": "../img/pc/Marranos.jpg",
+    "imagen": "../img/portadas/Marranos.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1346,7 +1346,7 @@
   {
     "id": "abrigo-212",
     "titulo": "Guitar Hero world tour",
-    "imagen": "../img/pc/guitar-hero-world-tour.jpg",
+    "imagen": "../img/portadas/guitar-hero-world-tour.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1358,7 +1358,7 @@
   {
     "id": "abrigo-213",
     "titulo": "Harry Potter y la Piedra Filosofal",
-    "imagen": "../img/pc/60.jpg",
+    "imagen": "../img/portadas/60.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1370,7 +1370,7 @@
   {
     "id": "abrigo-214",
     "titulo": "Harry Potter y la orden del fenix",
-    "imagen": "../img/pc/harry-potter-y-la-orden-del-fenix.jpg",
+    "imagen": "../img/portadas/harry-potter-y-la-orden-del-fenix.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1382,7 +1382,7 @@
   {
     "id": "abrigo-215",
     "titulo": "Parasite Eve 2",
-    "imagen": "../img/pc/ParasiteEve2.jpg",
+    "imagen": "../img/portadas/ParasiteEve2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1394,7 +1394,7 @@
   {
     "id": "abrigo-216",
     "titulo": "Hitman contracts",
-    "imagen": "../img/pc/hitman-contracts.jpg",
+    "imagen": "../img/portadas/hitman-contracts.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1406,7 +1406,7 @@
   {
     "id": "abrigo-217",
     "titulo": "Mision Imposible",
-    "imagen": "../img/pc/MisionImposible.jpg",
+    "imagen": "../img/portadas/MisionImposible.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1418,7 +1418,7 @@
   {
     "id": "abrigo-218",
     "titulo": "Hitman 2 Silent Assassin",
-    "imagen": "../img/pc/Hitman2SA.jpg",
+    "imagen": "../img/portadas/Hitman2SA.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1430,7 +1430,7 @@
   {
     "id": "abrigo-219",
     "titulo": "Alone in the dark",
-    "imagen": "../img/pc/AloneInTheDark.jpg",
+    "imagen": "../img/portadas/AloneInTheDark.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1442,7 +1442,7 @@
   {
     "id": "abrigo-220",
     "titulo": "Indiana Jones and the emperors tomb",
-    "imagen": "../img/pc/indiana-jones-and-the-emperors-tomb.jpg",
+    "imagen": "../img/portadas/indiana-jones-and-the-emperors-tomb.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1454,7 +1454,7 @@
   {
     "id": "abrigo-221",
     "titulo": "Army Men TA",
-    "imagen": "../img/pc/ArmyMenTA.jpg",
+    "imagen": "../img/portadas/ArmyMenTA.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1466,7 +1466,7 @@
   {
     "id": "abrigo-222",
     "titulo": "Lord of the Rings the return of the king",
-    "imagen": "../img/pc/lord-of-the-rings-the-return-of-the-king.jpg",
+    "imagen": "../img/portadas/lord-of-the-rings-the-return-of-the-king.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1478,7 +1478,7 @@
   {
     "id": "abrigo-223",
     "titulo": "Tarzan",
-    "imagen": "../img/pc/Tarzan.jpg",
+    "imagen": "../img/portadas/Tarzan.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1490,7 +1490,7 @@
   {
     "id": "abrigo-224",
     "titulo": "Los Increibles",
-    "imagen": "../img/pc/los-increibles.jpg",
+    "imagen": "../img/portadas/los-increibles.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1502,7 +1502,7 @@
   {
     "id": "abrigo-225",
     "titulo": "Hercules",
-    "imagen": "../img/pc/Hercules.jpg",
+    "imagen": "../img/portadas/Hercules.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1514,7 +1514,7 @@
   {
     "id": "abrigo-226",
     "titulo": "Max payne 2",
-    "imagen": "../img/pc/max-payne-2.jpg",
+    "imagen": "../img/portadas/max-payne-2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1526,7 +1526,7 @@
   {
     "id": "abrigo-227",
     "titulo": "Dragon Ball GT",
-    "imagen": "../img/pc/DragonBallGT.jpg",
+    "imagen": "../img/portadas/DragonBallGT.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1538,7 +1538,7 @@
   {
     "id": "abrigo-228",
     "titulo": "Medal of honor european assault",
-    "imagen": "../img/pc/medal-of-honor-european-assault.jpg",
+    "imagen": "../img/portadas/medal-of-honor-european-assault.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1550,7 +1550,7 @@
   {
     "id": "abrigo-229",
     "titulo": "Vigilante 8 2nd Off",
-    "imagen": "../img/pc/Vigilante82.jpg",
+    "imagen": "../img/portadas/Vigilante82.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1562,7 +1562,7 @@
   {
     "id": "abrigo-230",
     "titulo": "Medal of honor frontline",
-    "imagen": "../img/pc/medal-of-honor-frontline.jpg",
+    "imagen": "../img/portadas/medal-of-honor-frontline.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1574,7 +1574,7 @@
   {
     "id": "abrigo-231",
     "titulo": "Ace Combat 3",
-    "imagen": "../img/pc/AceCombat3.jpg",
+    "imagen": "../img/portadas/AceCombat3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1586,7 +1586,7 @@
   {
     "id": "abrigo-232",
     "titulo": "Medal of honor rising sun",
-    "imagen": "../img/pc/medal-of-honor-rising-sun.jpg",
+    "imagen": "../img/portadas/medal-of-honor-rising-sun.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1598,7 +1598,7 @@
   {
     "id": "abrigo-233",
     "titulo": "Need for Speed Porsche",
-    "imagen": "../img/pc/45.jpg",
+    "imagen": "../img/portadas/45.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1610,7 +1610,7 @@
   {
     "id": "abrigo-234",
     "titulo": "Medal of honor vanguard",
-    "imagen": "../img/pc/medal-of-honor-vanguard.jpg",
+    "imagen": "../img/portadas/medal-of-honor-vanguard.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1622,7 +1622,7 @@
   {
     "id": "abrigo-235",
     "titulo": "BMX",
-    "imagen": "../img/pc/BMX.jpg",
+    "imagen": "../img/portadas/BMX.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1634,7 +1634,7 @@
   {
     "id": "abrigo-236",
     "titulo": "Midnight Club 3",
-    "imagen": "../img/pc/MidnightClub3.jpg",
+    "imagen": "../img/portadas/MidnightClub3.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1646,7 +1646,7 @@
   {
     "id": "abrigo-237",
     "titulo": "Los Simpsons",
-    "imagen": "../img/pc/LosSimsonpPelea.jpg",
+    "imagen": "../img/portadas/LosSimsonpPelea.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1658,7 +1658,7 @@
   {
     "id": "abrigo-238",
     "titulo": "Mortal Kombat Deception",
-    "imagen": "../img/pc/mortalkombatdeception.jpg",
+    "imagen": "../img/portadas/mortalkombatdeception.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1670,7 +1670,7 @@
   {
     "id": "abrigo-239",
     "titulo": "TOCA",
-    "imagen": "../img/pc/TOCA.jpg",
+    "imagen": "../img/portadas/TOCA.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1682,7 +1682,7 @@
   {
     "id": "abrigo-240",
     "titulo": "Naruto",
-    "imagen": "../img/pc/naruto.jpg",
+    "imagen": "../img/portadas/naruto.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1694,7 +1694,7 @@
   {
     "id": "abrigo-241",
     "titulo": "PES 2002",
-    "imagen": "../img/pc/PES2002.jpg",
+    "imagen": "../img/portadas/PES2002.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1706,7 +1706,7 @@
   {
     "id": "abrigo-242",
     "titulo": "Nascar 2007",
-    "imagen": "../img/pc/Nascar2007.jpg",
+    "imagen": "../img/portadas/Nascar2007.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1718,7 +1718,7 @@
   {
     "id": "abrigo-243",
     "titulo": "FIFA 2005",
-    "imagen": "../img/pc/fifa.jpg",
+    "imagen": "../img/portadas/fifa.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1730,7 +1730,7 @@
   {
     "id": "abrigo-244",
     "titulo": "Padrino",
-    "imagen": "../img/pc/padrino.jpg",
+    "imagen": "../img/portadas/padrino.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1742,7 +1742,7 @@
   {
     "id": "abrigo-245",
     "titulo": "Spec Ops Ranger Elite",
-    "imagen": "../img/pc/specops.jpg",
+    "imagen": "../img/portadas/specops.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1754,7 +1754,7 @@
   {
     "id": "abrigo-246",
     "titulo": "Piratas del Caribe",
-    "imagen": "../img/pc/PiratasdelCaribe.jpg",
+    "imagen": "../img/portadas/PiratasdelCaribe.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1766,7 +1766,7 @@
   {
     "id": "abrigo-247",
     "titulo": "007 Tomorrow Never Dies",
-    "imagen": "../img/pc/54.jpg",
+    "imagen": "../img/portadas/54.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1778,7 +1778,7 @@
   {
     "id": "abrigo-248",
     "titulo": "Principe de Persia the two thrones",
-    "imagen": "../img/pc/prince-of-persia-the-two-thrones.jpg",
+    "imagen": "../img/portadas/prince-of-persia-the-two-thrones.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1790,7 +1790,7 @@
   {
     "id": "abrigo-249",
     "titulo": "Monster Inc",
-    "imagen": "../img/pc/MonsterINC.jpg",
+    "imagen": "../img/portadas/MonsterINC.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1802,7 +1802,7 @@
   {
     "id": "abrigo-250",
     "titulo": "Principe de Persia Arenas del Tiempo",
-    "imagen": "../img/pc/PrincipedePersiaST.jpg",
+    "imagen": "../img/portadas/PrincipedePersiaST.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1814,7 +1814,7 @@
   {
     "id": "abrigo-251",
     "titulo": "Tomb Raider 2",
-    "imagen": "../img/pc/TombRaider2.jpg",
+    "imagen": "../img/portadas/TombRaider2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1826,7 +1826,7 @@
   {
     "id": "abrigo-252",
     "titulo": "Scarface",
-    "imagen": "../img/pc/Scarface.jpg",
+    "imagen": "../img/portadas/Scarface.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1838,7 +1838,7 @@
   {
     "id": "abrigo-253",
     "titulo": "Fear Effect 2",
-    "imagen": "../img/pc/FearEffect2.jpg",
+    "imagen": "../img/portadas/FearEffect2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1850,7 +1850,7 @@
   {
     "id": "abrigo-254",
     "titulo": "Silent Hill 3",
-    "imagen": "../img/pc/silenthill3.jpg",
+    "imagen": "../img/portadas/silenthill3.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1862,7 +1862,7 @@
   {
     "id": "abrigo-255",
     "titulo": "Vampire Hunter",
-    "imagen": "../img/pc/VampireHunter.jpg",
+    "imagen": "../img/portadas/VampireHunter.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1874,7 +1874,7 @@
   {
     "id": "abrigo-256",
     "titulo": "Silent Hill 4",
-    "imagen": "../img/pc/silenthill4.jpg",
+    "imagen": "../img/portadas/silenthill4.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1886,7 +1886,7 @@
   {
     "id": "abrigo-257",
     "titulo": "Crash 2",
-    "imagen": "../img/pc/Crash2.jpg",
+    "imagen": "../img/portadas/Crash2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1898,7 +1898,7 @@
   {
     "id": "abrigo-258",
     "titulo": "Spiderman 2 ps2",
-    "imagen": "../img/pc/spiderman2ps2.jpg",
+    "imagen": "../img/portadas/spiderman2ps2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1910,7 +1910,7 @@
   {
     "id": "abrigo-259",
     "titulo": "OddWorld",
-    "imagen": "../img/pc/OddWorld.jpg",
+    "imagen": "../img/portadas/OddWorld.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1922,7 +1922,7 @@
   {
     "id": "abrigo-260",
     "titulo": "Spiderman Web Shadows",
-    "imagen": "../img/pc/spidermanws.jpg",
+    "imagen": "../img/portadas/spidermanws.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1934,7 +1934,7 @@
   {
     "id": "abrigo-261",
     "titulo": "Superbike 2000",
-    "imagen": "../img/pc/Superbike2000.jpg",
+    "imagen": "../img/portadas/Superbike2000.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1946,7 +1946,7 @@
   {
     "id": "abrigo-262",
     "titulo": "Splinter  Cell Pandora Tomorrow",
-    "imagen": "../img/pc/SplinterCellPT.jpg",
+    "imagen": "../img/portadas/SplinterCellPT.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1958,7 +1958,7 @@
   {
     "id": "abrigo-263",
     "titulo": "Marvel VS Street Fighter",
-    "imagen": "../img/pc/MarvelVSSF.jpg",
+    "imagen": "../img/portadas/MarvelVSSF.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1970,7 +1970,7 @@
   {
     "id": "abrigo-264",
     "titulo": "Urban Chaos",
-    "imagen": "../img/pc/UrbanChaos.jpg",
+    "imagen": "../img/portadas/UrbanChaos.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -1982,7 +1982,7 @@
   {
     "id": "abrigo-265",
     "titulo": "NASCAR Thunder 2004",
-    "imagen": "../img/pc/44.jpg",
+    "imagen": "../img/portadas/44.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -1994,7 +1994,7 @@
   {
     "id": "abrigo-266",
     "titulo": "World Rally Championship",
-    "imagen": "../img/pc/wrc.jpg",
+    "imagen": "../img/portadas/wrc.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2006,7 +2006,7 @@
   {
     "id": "abrigo-267",
     "titulo": "Creatures 2",
-    "imagen": "../img/pc/Creatures2.jpg",
+    "imagen": "../img/portadas/Creatures2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2018,7 +2018,7 @@
   {
     "id": "abrigo-268",
     "titulo": "WW II Europa",
-    "imagen": "../img/pc/ww2europa.jpg",
+    "imagen": "../img/portadas/ww2europa.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2030,7 +2030,7 @@
   {
     "id": "abrigo-269",
     "titulo": "Street fighter Alpha 3",
-    "imagen": "../img/pc/streetfighterAlpha3.jpg",
+    "imagen": "../img/portadas/streetfighterAlpha3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2042,7 +2042,7 @@
   {
     "id": "abrigo-270",
     "titulo": "WW II Pacifico",
-    "imagen": "../img/pc/ww2pacifico.jpg",
+    "imagen": "../img/portadas/ww2pacifico.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2054,7 +2054,7 @@
   {
     "id": "abrigo-271",
     "titulo": "Resident evil survivor",
-    "imagen": "../img/pc/ResidentEvilSurvivor.jpg",
+    "imagen": "../img/portadas/ResidentEvilSurvivor.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2066,7 +2066,7 @@
   {
     "id": "abrigo-272",
     "titulo": "Need for Speed Hot Pursuit 2",
-    "imagen": "../img/pc/Need for Speed Hot Pursuit 2.jpg",
+    "imagen": "../img/portadas/Need for Speed Hot Pursuit 2.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2078,7 +2078,7 @@
   {
     "id": "abrigo-273",
     "titulo": "Dragon Ball Z",
-    "imagen": "../img/pc/DragonBallZ.jpg",
+    "imagen": "../img/portadas/DragonBallZ.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2090,7 +2090,7 @@
   {
     "id": "abrigo-274",
     "titulo": "Bully",
-    "imagen": "../img/pc/Bully.jpg",
+    "imagen": "../img/portadas/Bully.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2102,7 +2102,7 @@
   {
     "id": "abrigo-275",
     "titulo": "Medal of honor",
-    "imagen": "../img/pc/MedalOfHonor.jpg",
+    "imagen": "../img/portadas/MedalOfHonor.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2114,7 +2114,7 @@
   {
     "id": "abrigo-276",
     "titulo": "Burnout Revenge",
-    "imagen": "../img/pc/Burnout Revenge.jpg",
+    "imagen": "../img/portadas/Burnout Revenge.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2126,7 +2126,7 @@
   {
     "id": "abrigo-277",
     "titulo": "Crash 3",
-    "imagen": "../img/pc/Crash3.jpg",
+    "imagen": "../img/portadas/Crash3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2138,7 +2138,7 @@
   {
     "id": "abrigo-278",
     "titulo": "Call of Duty World at War",
-    "imagen": "../img/pc/Call of Duty World at War.jpg",
+    "imagen": "../img/portadas/Call of Duty World at War.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2150,7 +2150,7 @@
   {
     "id": "abrigo-279",
     "titulo": "Spyro",
-    "imagen": "../img/pc/Spyro.jpg",
+    "imagen": "../img/portadas/Spyro.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2162,7 +2162,7 @@
   {
     "id": "abrigo-280",
     "titulo": "Delta Force Black Hawk Down",
-    "imagen": "../img/pc/Delta Force Black Hawk Down.jpg",
+    "imagen": "../img/portadas/Delta Force Black Hawk Down.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2174,7 +2174,7 @@
   {
     "id": "abrigo-281",
     "titulo": "Tony Hawk 4",
-    "imagen": "../img/pc/TonyHawk4.jpg",
+    "imagen": "../img/portadas/TonyHawk4.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2186,7 +2186,7 @@
   {
     "id": "abrigo-282",
     "titulo": "Delta Force Team Sabre",
-    "imagen": "../img/pc/Delta Force Team Sabre.jpg",
+    "imagen": "../img/portadas/Delta Force Team Sabre.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2198,7 +2198,7 @@
   {
     "id": "abrigo-283",
     "titulo": "Tony Hawk 3",
-    "imagen": "../img/pc/TonyHawk3.jpg",
+    "imagen": "../img/portadas/TonyHawk3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2210,7 +2210,7 @@
   {
     "id": "abrigo-284",
     "titulo": "Depredador",
-    "imagen": "../img/pc/Depredador.jpg",
+    "imagen": "../img/portadas/Depredador.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2222,7 +2222,7 @@
   {
     "id": "abrigo-285",
     "titulo": "Tony Hawk 2",
-    "imagen": "../img/pc/TonyHawk2.jpg",
+    "imagen": "../img/portadas/TonyHawk2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2234,7 +2234,7 @@
   {
     "id": "abrigo-286",
     "titulo": "Downhill Domination",
-    "imagen": "../img/pc/Downhill Domination.jpg",
+    "imagen": "../img/portadas/Downhill Domination.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2246,7 +2246,7 @@
   {
     "id": "abrigo-287",
     "titulo": "Tony Hawk",
-    "imagen": "../img/pc/TonyHawk.jpg",
+    "imagen": "../img/portadas/TonyHawk.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2258,7 +2258,7 @@
   {
     "id": "abrigo-288",
     "titulo": "FIFA Street",
-    "imagen": "../img/pc/FIFA Street.jpg",
+    "imagen": "../img/portadas/FIFA Street.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2270,7 +2270,7 @@
   {
     "id": "abrigo-289",
     "titulo": "Tomb Raider 3",
-    "imagen": "../img/pc/TombRaider3.jpg",
+    "imagen": "../img/portadas/TombRaider3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2282,7 +2282,7 @@
   {
     "id": "abrigo-290",
     "titulo": "FreekStyle",
-    "imagen": "../img/pc/FreekStyle.jpg",
+    "imagen": "../img/portadas/FreekStyle.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2294,7 +2294,7 @@
   {
     "id": "abrigo-291",
     "titulo": "King Of Fighters 96",
-    "imagen": "../img/pc/KOF96.jpg",
+    "imagen": "../img/portadas/KOF96.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2306,7 +2306,7 @@
   {
     "id": "abrigo-292",
     "titulo": "Guitar Hero 3",
-    "imagen": "../img/pc/Guitar Hero 3.jpg",
+    "imagen": "../img/portadas/Guitar Hero 3.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2318,7 +2318,7 @@
   {
     "id": "abrigo-293",
     "titulo": "King Of Fighters 95",
-    "imagen": "../img/pc/KOF95.jpg",
+    "imagen": "../img/portadas/KOF95.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2330,7 +2330,7 @@
   {
     "id": "abrigo-294",
     "titulo": "Le Tour de France",
-    "imagen": "../img/pc/Le Tour de France.jpg",
+    "imagen": "../img/portadas/Le Tour de France.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2342,7 +2342,7 @@
   {
     "id": "abrigo-295",
     "titulo": "King Of Fighters 99",
-    "imagen": "../img/pc/KOF99.jpg",
+    "imagen": "../img/portadas/KOF99.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2354,7 +2354,7 @@
   {
     "id": "abrigo-296",
     "titulo": "Spartan",
-    "imagen": "../img/pc/Spartan.jpg",
+    "imagen": "../img/portadas/Spartan.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2366,7 +2366,7 @@
   {
     "id": "abrigo-297",
     "titulo": "Parasite Eve",
-    "imagen": "../img/pc/parasite.jpg",
+    "imagen": "../img/portadas/parasite.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2378,7 +2378,7 @@
   {
     "id": "abrigo-298",
     "titulo": "Top Gear RPM Tuning",
-    "imagen": "../img/pc/Top Gear RPM Tuning.jpg",
+    "imagen": "../img/portadas/Top Gear RPM Tuning.webp",
     "categoria": {
       "nombre": "Altos requisitos",
       "id": "PCalta"
@@ -2390,7 +2390,7 @@
   {
     "id": "abrigo-299",
     "titulo": "Capcom vs SNK",
-    "imagen": "../img/pc/56.jpg",
+    "imagen": "../img/portadas/56.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2400,21 +2400,9 @@
     "advertencia": "Funciona en cualquier celular"
   },
   {
-    "id": "abrigo-102",
-    "titulo": "Grand Theft Auto San Andreas",
-    "imagen": "../img/pc/gtasa.jpg",
-    "categoria": {
-      "nombre": "Altos requisitos",
-      "id": "PCalta"
-    },
-    "precio": 7000,
-    "trailer": "https://youtu.be/ZO2YOqZ9v_E?si=yUdcFyeZbTIrkwt4",
-    "advertencia": "Requiere 6 o mas GB de RAM"
-  },
-  {
     "id": "abrigo-300",
     "titulo": "Ape Escape",
-    "imagen": "../img/pc/Ape Escape.jpg",
+    "imagen": "../img/portadas/Ape Escape.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2426,7 +2414,7 @@
   {
     "id": "abrigo-301",
     "titulo": "Syphon Filter 3",
-    "imagen": "../img/pc/52.jpg",
+    "imagen": "../img/portadas/52.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2438,7 +2426,7 @@
   {
     "id": "abrigo-302",
     "titulo": "God of War Chains of Olympus",
-    "imagen": "../img/pc/God of War Chains of Olympus.jpg",
+    "imagen": "../img/portadas/God of War Chains of Olympus.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2450,7 +2438,7 @@
   {
     "id": "abrigo-303",
     "titulo": "007 El mundo no basta",
-    "imagen": "../img/pc/007MundoNoBasta.jpg",
+    "imagen": "../img/portadas/007MundoNoBasta.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2462,7 +2450,7 @@
   {
     "id": "abrigo-304",
     "titulo": "God of War Ghost of Sparta",
-    "imagen": "../img/pc/God of War Ghost of Sparta.jpg",
+    "imagen": "../img/portadas/God of War Ghost of Sparta.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2474,7 +2462,7 @@
   {
     "id": "abrigo-305",
     "titulo": "Alien",
-    "imagen": "../img/pc/Alien.jpg",
+    "imagen": "../img/portadas/Alien.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2486,7 +2474,7 @@
   {
     "id": "abrigo-306",
     "titulo": "Super Smash Bros",
-    "imagen": "../img/pc/Super Smash Bros.jpg",
+    "imagen": "../img/portadas/Super Smash Bros.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2498,7 +2486,7 @@
   {
     "id": "abrigo-307",
     "titulo": "Army Men Air Attack",
-    "imagen": "../img/pc/ArmyMenAA.jpg",
+    "imagen": "../img/portadas/ArmyMenAA.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2510,7 +2498,7 @@
   {
     "id": "abrigo-308",
     "titulo": "Mario Party",
-    "imagen": "../img/pc/Mario Party.jpg",
+    "imagen": "../img/portadas/Mario Party.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2522,7 +2510,7 @@
   {
     "id": "abrigo-309",
     "titulo": "Army Men Air Attack 2",
-    "imagen": "../img/pc/ArmyMenAA2.jpg",
+    "imagen": "../img/portadas/ArmyMenAA2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2534,7 +2522,7 @@
   {
     "id": "abrigo-310",
     "titulo": "Mario Party 2",
-    "imagen": "../img/pc/Mario Party 2.jpg",
+    "imagen": "../img/portadas/Mario Party 2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2546,7 +2534,7 @@
   {
     "id": "abrigo-311",
     "titulo": "Army Men Lock Load",
-    "imagen": "../img/pc/ArmyMenLL.jpg",
+    "imagen": "../img/portadas/ArmyMenLL.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2558,7 +2546,7 @@
   {
     "id": "abrigo-312",
     "titulo": "Mario Party 3",
-    "imagen": "../img/pc/Mario Party 3.jpg",
+    "imagen": "../img/portadas/Mario Party 3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2570,7 +2558,7 @@
   {
     "id": "abrigo-313",
     "titulo": "Army Men Land Sea Air",
-    "imagen": "../img/pc/ArmyMenLSA.jpg",
+    "imagen": "../img/portadas/ArmyMenLSA.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2582,7 +2570,7 @@
   {
     "id": "abrigo-314",
     "titulo": "Zelda Ocarina Time",
-    "imagen": "../img/pc/Zelda Ocarina Time.jpg",
+    "imagen": "../img/portadas/Zelda Ocarina Time.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2594,7 +2582,7 @@
   {
     "id": "abrigo-315",
     "titulo": "Army Men Operation Meltdown",
-    "imagen": "../img/pc/ArmyMenOM.jpg",
+    "imagen": "../img/portadas/ArmyMenOM.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2606,7 +2594,7 @@
   {
     "id": "abrigo-316",
     "titulo": "TOCA 2",
-    "imagen": "../img/pc/TOCA 2.jpg",
+    "imagen": "../img/portadas/TOCA 2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2618,7 +2606,7 @@
   {
     "id": "abrigo-317",
     "titulo": "Army Men Omega Soldier",
-    "imagen": "../img/pc/ArmyMenOS.jpg",
+    "imagen": "../img/portadas/ArmyMenOS.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2630,7 +2618,7 @@
   {
     "id": "abrigo-318",
     "titulo": "Need for Speed 3",
-    "imagen": "../img/pc/Need for Speed 3.jpg",
+    "imagen": "../img/portadas/Need for Speed 3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2642,7 +2630,7 @@
   {
     "id": "abrigo-319",
     "titulo": "Army Men Sarge�s Heroes",
-    "imagen": "../img/pc/ArmyMenSH.jpg",
+    "imagen": "../img/portadas/ArmyMenSH.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2654,7 +2642,7 @@
   {
     "id": "abrigo-320",
     "titulo": "MLB 2001",
-    "imagen": "../img/pc/MLB 2001.jpg",
+    "imagen": "../img/portadas/MLB 2001.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2666,7 +2654,7 @@
   {
     "id": "abrigo-321",
     "titulo": "Army Men Sarge�s Heroes 2",
-    "imagen": "../img/pc/ArmyMenSH2.jpg",
+    "imagen": "../img/portadas/ArmyMenSH2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2678,7 +2666,7 @@
   {
     "id": "abrigo-322",
     "titulo": "Gomito 58 Extra Turbo",
-    "imagen": "../img/pc/Gomito 58 Extra Turbo.jpg",
+    "imagen": "../img/portadas/Gomito 58 Extra Turbo.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2690,7 +2678,7 @@
   {
     "id": "abrigo-323",
     "titulo": "Casper",
-    "imagen": "../img/pc/casper.jpg",
+    "imagen": "../img/portadas/casper.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2702,7 +2690,7 @@
   {
     "id": "abrigo-324",
     "titulo": "Donkey Kong 64",
-    "imagen": "../img/pc/Donkey Kong 64.jpg",
+    "imagen": "../img/portadas/Donkey Kong 64.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2714,7 +2702,7 @@
   {
     "id": "abrigo-325",
     "titulo": "Crash Bash ",
-    "imagen": "../img/pc/CrashBash.jpg",
+    "imagen": "../img/portadas/CrashBash.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2726,7 +2714,7 @@
   {
     "id": "abrigo-326",
     "titulo": "Delta Force",
-    "imagen": "../img/pc/Delta Force.jpg",
+    "imagen": "../img/portadas/Delta Force.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2738,7 +2726,7 @@
   {
     "id": "abrigo-327",
     "titulo": "Digimon 2003",
-    "imagen": "../img/pc/Digimon2003.jpg",
+    "imagen": "../img/portadas/Digimon2003.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2750,7 +2738,7 @@
   {
     "id": "abrigo-328",
     "titulo": "Cruis n World 64",
-    "imagen": "../img/pc/Cruis n World 64.jpg",
+    "imagen": "../img/portadas/Cruis n World 64.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2762,7 +2750,7 @@
   {
     "id": "abrigo-329",
     "titulo": "Dino Crisis 1",
-    "imagen": "../img/pc/DinoCrisis1.jpg",
+    "imagen": "../img/portadas/DinoCrisis1.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2774,7 +2762,7 @@
   {
     "id": "abrigo-330",
     "titulo": "Cruis n USA 64",
-    "imagen": "../img/pc/Cruis n USA 64.jpg",
+    "imagen": "../img/portadas/Cruis n USA 64.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2786,7 +2774,7 @@
   {
     "id": "abrigo-331",
     "titulo": "ISS 2",
-    "imagen": "../img/pc/ISS2.jpg",
+    "imagen": "../img/portadas/ISS2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2798,7 +2786,7 @@
   {
     "id": "abrigo-332",
     "titulo": "ISS club",
-    "imagen": "../img/pc/ISSclub.jpg",
+    "imagen": "../img/portadas/ISSclub.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2810,7 +2798,7 @@
   {
     "id": "abrigo-333",
     "titulo": "Le Mans 24 hours",
-    "imagen": "../img/pc/LeMans.jpg",
+    "imagen": "../img/portadas/LeMans.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2822,7 +2810,7 @@
   {
     "id": "abrigo-334",
     "titulo": "Quinto Elemento",
-    "imagen": "../img/pc/QuintoElemento.jpg",
+    "imagen": "../img/portadas/QuintoElemento.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2834,7 +2822,7 @@
   {
     "id": "abrigo-335",
     "titulo": "Collin Mc Crae Rally",
-    "imagen": "../img/pc/rallycm.jpg",
+    "imagen": "../img/portadas/rallycm.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2846,7 +2834,7 @@
   {
     "id": "abrigo-336",
     "titulo": "Star Wars the phantom menace",
-    "imagen": "../img/pc/StarWars.jpg",
+    "imagen": "../img/portadas/StarWars.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2858,7 +2846,7 @@
   {
     "id": "abrigo-337",
     "titulo": "Street fighter 2",
-    "imagen": "../img/pc/streetfighter.jpg",
+    "imagen": "../img/portadas/streetfighter.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2870,7 +2858,7 @@
   {
     "id": "abrigo-338",
     "titulo": "Syphon Filter 2",
-    "imagen": "../img/pc/SyphonFilter2.jpg",
+    "imagen": "../img/portadas/SyphonFilter2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2882,7 +2870,7 @@
   {
     "id": "abrigo-339",
     "titulo": "Toy story racer",
-    "imagen": "../img/pc/toystoryracer.jpg",
+    "imagen": "../img/portadas/toystoryracer.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2894,7 +2882,7 @@
   {
     "id": "abrigo-340",
     "titulo": "Twisted Metal",
-    "imagen": "../img/pc/TwistedMetal.jpg",
+    "imagen": "../img/portadas/TwistedMetal.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2906,7 +2894,7 @@
   {
     "id": "abrigo-341",
     "titulo": "Twisted Metal 2",
-    "imagen": "../img/pc/Twistedmetal2.jpg",
+    "imagen": "../img/portadas/Twistedmetal2.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2918,7 +2906,7 @@
   {
     "id": "abrigo-342",
     "titulo": "Twisted Metal 3",
-    "imagen": "../img/pc/TwistedMetal3.jpg",
+    "imagen": "../img/portadas/TwistedMetal3.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2930,7 +2918,7 @@
   {
     "id": "abrigo-343",
     "titulo": "Xmen VS Street Fighter",
-    "imagen": "../img/pc/XMenVSSF.jpg",
+    "imagen": "../img/portadas/XMenVSSF.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"
@@ -2942,7 +2930,7 @@
   {
     "id": "abrigo-344",
     "titulo": "Acceso a todo el catalogo",
-    "imagen": "../img/pc/todos.jpg",
+    "imagen": "../img/portadas/todos.webp",
     "categoria": {
       "nombre": "Bajos requisitos",
       "id": "PCbaja"

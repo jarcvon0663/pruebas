@@ -145,36 +145,36 @@ function mostrarMetodoPago() {
             titulo: "3143394021",
             texto: `a nombre de Jei*** R***<br><br><b>Total a pagar: ${totalPagar}</b>`,
             link: "nequi://app",
-            img: "../img/nequi.png"
+            img: "../img/nequi.webp"
         },
         daviplata: {
             titulo: "3143394021",
             texto: `a nombre de Jei*** R***<br><br><b>Total a pagar: ${totalPagar}</b>`,
             link: "https://play.google.com/store/apps/details?id=com.davivienda.daviplataapp",
-            img: "../img/daviplata.png"
+            img: "../img/daviplata.webp"
         },
         dale: {
             titulo: "3143394021",
             texto: `a nombre de Jei*** R***<br><br><b>Total a pagar: ${totalPagar}</b>`,
             link: "https://play.google.com/store/apps/details?id=com.avalsolucionesdigitalessa.dale_app_embedded",
-            img: "../img/dale.png"
+            img: "../img/dale.webp"
         },
         transfiya: {
             titulo: "3143394021",
             texto: `Desde cualquier aplicación bancaria paga por transfiya al Nequi 3143394021\nTotal a pagar: ${totalPagar}`,
-            img: "../img/transfiya.png"
+            img: "../img/transfiya.webp"
         },
         pse: {
             titulo: "Realiza una recarga desde cualquier entidad bancaria a Nequi 3143394021",
             texto: `Total a pagar: ${totalPagar}`,
             link: "https://recarga.nequi.com.co/bdigitalpsl/?_ga=2.189700267.1416431342.1700047997",
-            img: "../img/pse.png"
+            img: "../img/pse.webp"
         },
         bancolombia: {
             titulo: "Bancolombia o Ahorro a la mano cuenta de ahorros: 30400010907",
             texto: `Total a pagar: ${totalPagar}`,
             link: "https://play.google.com/store/apps/details?id=co.com.tcs.bancolombia.bancaalamano",
-            img: "../img/bancolombia.png"
+            img: "../img/bancolombia.webp"
         }
     };
 
